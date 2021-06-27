@@ -35,3 +35,20 @@ const cleanInnerHtml = (elementId) => {
     const element = document.getElementById(elementId)
     element.innerHTML = ''
 }
+
+const populateSelect = (elementId, textAndValue) => {
+    const select = document.getElementById(elementId)
+    textAndValue.forEach(obj => {
+        const option = document.createElement('option')
+        option.value = obj.value
+        option.innerText = obj.text
+        select.appendChild(option)
+    })
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}

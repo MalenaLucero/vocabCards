@@ -9,41 +9,17 @@
     <script type="text/javascript" src="data/260621.js"></script>
     <script type="text/javascript" src="data/120621.js"></script>
     <script type="text/javascript" src="htmlhelpers.js"></script>
+    <script type="text/javascript" src="data/dates.js"></script>
 </head>
 <body>
-    <div id="card">
-        <div class="top-buttons-container">
-            <button onclick="showAll()">Show all</button>
-            <button onclick="showNextCard()">Next</button>
-        </div>
-        <div class="main-expression-container">
-            <p id="mainExpression"></p>
-        </div>
-        <div class="reading-container">
-            <p id="reading" class="not-visible"></p>
-            <button onclick="toggleElementVisibility('reading')">
-                Show reading
-            </button>
-        </div>
-        <div class="data-container">
-            <ul id="exampleSentences" class="not-visible"></ul>
-            <button onclick="toggleElementVisibility('exampleSentences')">
-                Show example sentences
-            </button>
-        </div>
-        <div class="data-container">
-            <ul id="englishMeaning" class="not-visible"></ul> 
-            <button onclick="toggleElementVisibility('englishMeaning')">
-                Show English meaning
-            </button>
-        </div>
-        <div class="data-container">
-            <ul id="japaneseMeaning" class="not-visible"></ul>
-            <button onclick="toggleElementVisibility('japaneseMeaning')">
-                Show Japanese meaning
-            </button> 
-        </div>
+    <div>
+        <h1>Filters</h1>
+        <label>
+            <span>Select date</span>
+            <select id="dateSelect"></select>
+        </label>
     </div>
+    <button onclick="sendData()">Go to cards</button>
     <script type="text/Javascript" src="main.js"></script>
 </body>
 </html>

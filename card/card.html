@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css"></link>
+    <link rel="stylesheet" href="../styles.css"></link>
+    <script type="text/javascript" src="./../htmlhelpers.js"></script>
+</head>
+<body>
+    <a href="../index.html">Back</a>
+    <div id="card">
+        <div class="top-buttons-container">
+            <button onclick="showAll()">Show all</button>
+            <button onclick="showNextCard()">Next</button>
+        </div>
+        <div class="main-expression-container">
+            <p id="mainExpression"></p>
+        </div>
+        <div class="reading-container">
+            <p id="reading" class="not-visible"></p>
+            <button onclick="toggleElementVisibility('reading')">
+                Show reading
+            </button>
+        </div>
+        <div class="data-container">
+            <ul id="exampleSentences" class="not-visible"></ul>
+            <button onclick="toggleElementVisibility('exampleSentences')">
+                Show example sentences
+            </button>
+        </div>
+        <div class="data-container">
+            <ul id="englishMeaning" class="not-visible"></ul> 
+            <button onclick="toggleElementVisibility('englishMeaning')">
+                Show English meaning
+            </button>
+        </div>
+        <div class="data-container">
+            <ul id="japaneseMeaning" class="not-visible"></ul>
+            <button onclick="toggleElementVisibility('japaneseMeaning')">
+                Show Japanese meaning
+            </button> 
+        </div>
+    </div>
+    <script type="text/Javascript" src="card.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.top-buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-expression-container{
+    text-align: center;
+    font-size: 40px;
+}
+
+.reading-container{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.data-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

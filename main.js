@@ -2,46 +2,38 @@ const rawData = {
     '120621': data120621,
     '260621': data260621
 }
-let filteredData = []
-const htmlContainers = ['reading', 'exampleSentences', 'englishMeaning', 'japaneseMeaning']
 
-const filterData = () => {
-    return Object.keys(rawData).map(key => rawData[key]).flat()
+const filterData = (filter) => {
+    const data = filter.date === '' ? rawData : rawData[filter.date]
+    return Object.keys(data).map(key => data[key]).flat()
 }
 
-const generateCard = () => {
-    const data = filteredData[0]
-    insertText('mainExpression', data.word)
-    insertText('reading', data.reading)
-    const exampleSentencesArray = data.exampleSentences.map(e => {
-        return `${e.sentence} (${e.source.name})`
-    })
-    insertTextInList('exampleSentences', exampleSentencesArray)
-    insertTextInList('englishMeaning', data.englishMeaning)
-    insertTextInList('japaneseMeaning', data.japaneseMeaning)
-}
-
-const inititalize = () => {
-    filteredData = filterData()
-    generateCard();
-}
-
-inititalize()
-
-const showAll = () => {
-    htmlContainers.forEach(e => makeElementVisible(e))
-}
-
-const showNextCard = () => {
-    if (filteredData.length > 1) {
-        filteredData.shift()
-        htmlContainers.forEach(e => {
-           cleanInnerHtml(e) 
-           makeElementNotVisible(e)
-        })
-        generateCard()
-    } else {
-        console.log('no more cards')
+const sendData = () => {
+    const filter = {
+        date: document.getElementById('dateSelect').value
     }
+    const filteredData = filterData(filter)
+    window.localStorage.setItem('data', JSON.stringify(filteredData))
+    window.location.href = './card/card.html'
 }
+
+const initializeDatesSelect = () => {
+    let dateSelectValues = []
+    dates.forEach(date => {
+        const array = date.split('')
+        const dateText = `${array[0]}${array[1]}-${array[2]}${array[3]}-${array[4]}${array[5]}`
+        const textAndValue = { text: dateText, value: date }
+        dateSelectValues.push(textAndValue)
+    })
+    dateSelectValues.unshift({text: 'All', value: ''})
+    populateSelect('dateSelect', dateSelectValues)
+}
+
+const initialize = () => {
+    initializeDatesSelect()
+}
+
+initialize()
+
+
 
