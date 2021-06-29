@@ -110,5 +110,60 @@ const kanjis260621 = [
           "コウ"
         ],
         jlpt: null,
+    }, {
+        kanji: "然",
+        meanings: [
+          "sort of thing",
+          "so",
+          "if so",
+          "in that case",
+          "well"
+        ],
+        kun_readings: [
+          "しか",
+          "しか.り",
+          "しか.し",
+          "さ"
+        ],
+        on_readings: [
+          "ゼン",
+          "ネン"
+        ],
+        jlpt: 2,
+    }, {
+        kanji: "予",
+        meanings: [
+          "beforehand",
+          "previous",
+          "myself",
+          "I"
+        ],
+        kun_readings: [
+          "あらかじ.め"
+        ],
+        on_readings: [
+          "ヨ",
+          "シャ"
+        ],
+        jlpt: 2,
+    }, {
+        kanji: "程",
+        meanings: [
+          "extent",
+          "degree",
+          "law",
+          "formula",
+          "distance",
+          "limits",
+          "amount"
+        ],
+        kun_readings: [
+          "ほど",
+          "-ほど"
+        ],
+        on_readings: [
+          "テイ"
+        ],
+        jlpt: 2
     }
 ]
