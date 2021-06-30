@@ -165,5 +165,83 @@ const kanjis260621 = [
           "テイ"
         ],
         jlpt: 2
+    }, {
+        kanji: "般",
+        meanings: [
+          "carrier",
+          "carry",
+          "all",
+          "general",
+          "sort",
+          "kind"
+        ],
+        kun_readings: [],
+        on_readings: [
+          "ハン"
+        ],
+        jlpt: 2,
+    }, {
+        kanji: "埒",
+        meanings: [
+          "picket",
+          "limits",
+          "be settled"
+        ],
+        kun_readings: [
+          "らち.があく",
+          "かこ.い"
+        ],
+        on_readings: [
+          "レツ",
+          "ラツ",
+          "ラチ"
+        ],
+        jlpt: null,
+    }, {
+      kanji: "整",
+      meanings: [
+        "organize",
+        "arranging",
+        "tune",
+        "tone",
+        "meter",
+        "key (music)"
+      ],
+      kun_readings: [
+        "ととの.える",
+        "ととの.う"
+      ],
+      on_readings: [
+        "セイ"
+      ],
+      jlpt: 2,
+    }, {
+        kanji: "調",
+        meanings: [
+          "tune",
+          "tone",
+          "meter",
+          "key (music)",
+          "writing style",
+          "prepare",
+          "exorcise",
+          "investigate",
+          "harmonize",
+          "mediate"
+        ],
+        kun_readings: [
+          "しら.べる",
+          "しら.べ",
+          "ととの.う",
+          "ととの.える"
+        ],
+        on_readings: [
+          "チョウ"
+        ],
+        name_readings: [
+          "ぎ",
+          "つぎ"
+        ],
+        jlpt: 2,
     }
 ]

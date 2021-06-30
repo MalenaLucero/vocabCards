@@ -168,7 +168,7 @@ const data260621 = [
         japaneseMeaning: ["物事の始まる前に、ある事をしておくさま。前もって。「予め調べておく」"],
         exampleSentences: [
             {
-                sentence: "メンバーの活動を見守るお気持ちはどうですか。SUGA： 気持ちがさほどよくはないですね。",
+                sentence: "それで活動になるべく参加しようとされたんでしょうか。予め撮っておいた映像も多く、Mnet『2020 MAMA』では仮想現実で登場されましたね。",
                 source: {
                     name: "Suga Be Weverse Interview",
                     link: ""
@@ -279,10 +279,117 @@ const data260621 = [
             opposingWord: ""
         },
         englishMeaning: ["development; evolution; progression"],
-        japaneseMeaning: ["１ 広くひろげること。また、広くひろがること。「眼下に展開する平野」", "物事をくりひろげること。「大論争を展開する」「華麗なる演技が展開される」", "次の段階に進めること。また、次の段階に進むこと。「行き詰まった交渉の展開をはかる」「事件は意外な方向に展開した」"],
+        japaneseMeaning: ["広くひろげること。また、広くひろがること。「眼下に展開する平野」", "物事をくりひろげること。「大論争を展開する」「華麗なる演技が展開される」", "次の段階に進めること。また、次の段階に進むこと。「行き詰まった交渉の展開をはかる」「事件は意外な方向に展開した」"],
         exampleSentences: [
             {
                 sentence: "ギターを弾くようになる前に作られた曲ではありますが、『BE』の「Telepathy」が面白かったです。フックの間のメロディーの展開がメンバーが替わる度に変わって、パートごとに直観的にメロディーを作られたのかなと思いました。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "作業",
+        reading: "さぎょう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["work; operation; manufacturing; fatigue duty"],
+        japaneseMeaning: ["仕事。また、仕事をすること。特に、一定の目的と計画のもとに、身体または知能を使ってする仕事。「修復作業にとりかかる」「徹夜で作業する」「作業能率」「農作業」"],
+        exampleSentences: [
+            {
+                sentence: "『BE』の作業が全般的にご希望通りに仕上がったようですね。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }, {
+                sentence: "作業の過程で、これで発表しようという確信はどうやって得られますか。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }, {
+                sentence: "普通はノートパソコンで作業をしますが、確かに楽器が必要だと思うようになりました。作業がずっと早く進み、コードに関する理解も深まります。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "全般的",
+        reading: "ぜんぱんてき",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["general; overall; across-the-board"],
+        japaneseMeaning: [" 同類の物事。種類。「一般・各般・這般 (しゃはん) ・諸般・全般・万般・百般」", "ある局面。回。「過般・今般・先般」"],
+        exampleSentences: [
+            {
+                sentence: "『BE』の作業が全般的にご希望通りに仕上がったようですね。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "別途",
+        reading: "べっと",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["separate; special; another"],
+        japaneseMeaning: [" 別の方法・用途。副詞的にも用いる。「別途の目的に使用する」「交通費は別途支給する」"],
+        exampleSentences: [
+            {
+                sentence: "「Life Goes On」もメロディーをさらに一つ、二つ作り、ラップまで全部入れたバージョンも作ってみたら、そこそこ気に入ったので、別途に編曲をしたり歌詞を作ったりもしました。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "埒があかない",
+        reading: "ラチが明かない",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["make no progress; remain unsettled"],
+        japaneseMeaning: [""],
+        exampleSentences: [
+            {
+                sentence: "音楽をする人は、いくら聴いても曲を発表していいかどうか分からない場合が多くあります。僕もそうでしたが、まずそういう風に考えるとラチが明かないんですね。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "調整",
+        reading: "ちょうせい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["adjustment; regulation; coordination; reconciliation; tuning; fixing; tailoring"],
+        japaneseMeaning: ["ある基準に合わせて正しく整えること。過不足などを正してつりあいのとれた状態にすること。「いろいろな意見を調整して一本化する」「テレビの画面を調整する」"],
+        exampleSentences: [
+            {
+                sentence: "大きな全体像を見て調整した方が逆に効率がよく、ディテールなところばかり考えてはいけないんです。",
                 source: {
                     name: "Suga Be Weverse Interview",
                     link: ""
