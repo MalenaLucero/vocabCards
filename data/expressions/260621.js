@@ -234,25 +234,6 @@ const data260621 = [
         ],
         tags: []
     }, {
-        word: "直感的",
-        reading: "ちょっかんてき",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["intuitive"],
-        japaneseMeaning: ["推理・考察などによるのでなく、感覚によって物事をとらえること。「直感が働く」「将来結ばれる運命であることを直感した」"],
-        exampleSentences: [
-            {
-                sentence: "メロディーを作る時、直観的に作れそうな気もしますね。SUGA： 直観的に進行を作ることができて曲作りもやりやすくなりますし、音楽を長く続けたら、色々試してみた方がいいとも思います。",
-                source: {
-                    name: "Suga Be Weverse Interview",
-                    link: ""
-                }
-            }
-        ],
-        tags: []
-    }, {
         word: "過程",
         reading: "かてい",
         transitivity: {
@@ -392,6 +373,101 @@ const data260621 = [
                 sentence: "大きな全体像を見て調整した方が逆に効率がよく、ディテールなところばかり考えてはいけないんです。",
                 source: {
                     name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "投稿",
+        reading: "とうこう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["contribution (to a newspaper, magazine, etc.); submission; post (on a blog, social media, etc.)"],
+        japaneseMeaning: ["雑誌や新聞などに、公表・公開してもらうために原稿・文章を送ること。また、その原稿。投書。「短歌雑誌に投稿する」「投稿欄」", "インターネット上の決められた場所で、文章・画像・動画などを公開すること。特に、ブログ・SNS・BBSなどに文章や画像を掲載したり、動画共有サービスに動画のデータをアップロードしたりすることを指す。"],
+        exampleSentences: [
+            {
+                sentence: "昨日、『KBS歌謡祭』で(このインタビューは、2020年12月19日に行われた)メンバーの「I NEED U」のステージをご覧になり、Weverseに「5年前と同じだね」と投稿されましたが、あの時に比べてどうですか。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "妙",
+        reading: "みょう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["strange; weird; odd; curious​", "wonder; mystery; miracle; excellence"],
+        japaneseMeaning: ["不思議なまでにすぐれているさま。何ともいえないほど美しいさま。「妙なる楽の音」", "きわめてじょうずなさま。「歌にあやしく―なりけり」"],
+        exampleSentences: [
+            {
+                sentence: "「I NEED U」はいまだに好きです。ビートを聴くだけで妙な気分になりますし、とてもいい曲に仕上がりましたし。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "動揺",
+        reading: "どうよう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["shaking; trembling; pitching; rolling; oscillation​", "disturbance; unrest; agitation; excitement; commotion; turmoil; discomposure; feeling shaken"],
+        japaneseMeaning: ["ゆれ動くこと。「強風で船体が動揺する」", "心や気持ちがゆれ動くこと。平静を失うこと。「事故の知らせに動揺する」", "社会などが秩序を失い乱れること。「政界が動揺する"],
+        exampleSentences: [
+            {
+                sentence: "ノミネートされるならされて、賞をいただくならいただくまでであって、動揺することはありません。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "臨む",
+        reading: "のぞむ",
+        transitivity: {
+            type: "自動詞",
+            opposingWord: ""
+        },
+        englishMeaning: ["to look out on; to overlook; to front onto​", "to face (a situation, crisis, etc.); to meet (e.g. death); to be confronted by​", "to deal with (an issue)​", "to attend (e.g. a function); to appear (e.g. in court); to be present at; to take part in"],
+        japaneseMeaning: ["風景・場所などを目の前にする。向かい対する。面する。「海に―・んだ部屋」", "ある事態が起こるようなところに身を置く。そういう時に当たる。出あう。直面する。「危機に―・む」「死に―・む」「終わりに―・んで礼を述べる」", "その場所へ出かけていく。特に、公の、または晴れの場所などに、出席または参加する。「開会式に―・む」「試合に―・む」", "支配者が被支配者に対する。また、予想できる事態に対応した態度で人に対する。「強権の発動をもって―・む」「厳正な態度で―・む」"],
+        exampleSentences: [
+            {
+                sentence: "ステージでもっと上手くできるように、もっといい体調で臨めるようにするためですから、あまり悲しまないで、もう少し待っていただけたらと思います。",
+                source: {
+                    name: "Suga Be Weverse Interview",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "感染",
+        reading: "かんせん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["infection; contagion; becoming infected"],
+        japaneseMeaning: ["病原体が体内に侵入すること。特に、そのために種々の病態が起こること。「結核に感染する」「新型ウイルスが人に感染する仕組みを解明する」", "影響を受け、それに染まること。「過激な思想に感染する」", "コンピューターシステムに不具合を起こすコンピューターウイルスが、ファイルに組み込まれること。"],
+        exampleSentences: [
+            {
+                sentence: "そのマンションの中で、ゾンビみたいなモンスターみたいなのが生まれて、パンデミックになっちゃうんですよね。これはマンションの中だけじゃなくて、世界中でなってしまうんですよ。感染して、パンデミックになってしまうっていう。",
+                source: {
+                    name: "EP-70 最近見た韓国ドラマ Korean Drama I've Watched(N3-N2)",
                     link: ""
                 }
             }

@@ -243,5 +243,79 @@ const kanjis260621 = [
           "つぎ"
         ],
         jlpt: 2,
+    }, {
+        kanji: "投",
+        meanings: [
+          "throw",
+          "discard",
+          "abandon",
+          "launch into",
+          "join",
+          "invest in",
+          "hurl",
+          "give up",
+          "sell at a loss"
+        ],
+        kun_readings: [
+          "な.げる",
+          "-な.げ"
+        ],
+        on_readings: [
+          "トウ"
+        ],
+        jlpt: 2,
+    }, {
+        kanji: "稿",
+        meanings: [
+          "draft",
+          "copy",
+          "manuscript",
+          "straw"
+        ],
+        kun_readings: [
+          "わら",
+          "したがき"
+        ],
+        on_readings: [
+          "コウ"
+        ],
+        jlpt: 1,
+    }, {
+        kanji: "妙",
+        meanings: [
+          "exquisite",
+          "strange",
+          "queer",
+          "mystery",
+          "miracle",
+          "excellent",
+          "delicate",
+          "charming"
+        ],
+        kun_readings: [
+          "たえ"
+        ],
+        on_readings: [
+          "ミョウ",
+          "ビョウ"
+        ],
+        jlpt: 1,
+    }, {
+        kanji: "臨",
+        meanings: [
+          "look to",
+          "face",
+          "meet",
+          "confront",
+          "attend",
+          "call on"
+        ],
+        kun_readings: [
+          "のぞ.む"
+        ],
+        on_readings: [
+          "リン"
+        ],
+        jlpt: 1,
     }
 ]
