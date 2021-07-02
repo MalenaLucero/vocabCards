@@ -473,6 +473,82 @@ const data260621 = [
             }
         ],
         tags: []
+    }, {
+        word: "追い込む",
+        reading: "おいこむ",
+        transitivity: {
+            type: "他動詞",
+            opposingWord: ""
+        },
+        englishMeaning: ["to herd; to drive; to chase; to corral​", "to corner; to force someone into doing"],
+        japaneseMeaning: ["広い所にいるものを、追い立ててある場所に入れる。「牛を柵の中に―・む」", "相手を苦しい立場に立たせる。追い詰める。「窮地に―・む」「辞任に―・む」"],
+        exampleSentences: [
+            {
+                sentence: "謎の足跡 見つけたら follow / 追い込まれる my shadows / 光の裏側に潜めた what?",
+                source: {
+                    name: "Don't leave me - BTS",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "途切れる",
+        reading: "とぎれる",
+        transitivity: {
+            type: "自動詞",
+            opposingWord: "途切らせる"
+        },
+        englishMeaning: ["to break off; to come to an end; to be interrupted; to be cut short; to pause"],
+        japaneseMeaning: ["続いていたものが途中で切れる。「―・れることのない人波」「会話が―・れる」"],
+        exampleSentences: [
+            {
+                sentence: "会えない君だけが知る my answer / 途切れる前に I wanna know everything",
+                source: {
+                    name: "Don't leave me - BTS",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "淡々",
+        reading: "たんたん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["uninterested; unconcerned; indifferent; dispassionate; matter-of-fact; detached​", "plain; light; simple; bland​", "flowing gently"],
+        japaneseMeaning: ["色・味・感じなどが、あっさりしているさま。淡泊なさま。「―たる色調」", "態度・動作などが、あっさりしてこだわりがないさま。「心境を―と語る」", "水が静かに揺れ動くさま。「―として水が流れる」"],
+        exampleSentences: [
+            {
+                sentence: "淡々と降り積もった記憶の中で / 君だけを拾い集めて繋げて",
+                source: {
+                    name: "Film out - BTS",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "込み上げる",
+        reading: "こみあげる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to well up (of tears, anger, joy, etc.); to surge up (within oneself); to rise; to fill one's heart; to overcome one​", "to feel nauseated; to feel sick"],
+        japaneseMeaning: ["喜怒哀楽の激しい感情が沸き上がってきて胸がいっぱいになる。また、こらえきれずにあふれ出る。「涙が―・げる」「怒りが―・げる」", "胃の中の物が突き上げるように口の方へ出てくる。「吐きけが―・げる」"],
+        exampleSentences: [
+            {
+                sentence: "部屋中に映して眺めながら / 込み上げる痛みで 君を確かめている",
+                source: {
+                    name: "Film out - BTS",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
     }
 ]
     

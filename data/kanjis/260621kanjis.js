@@ -317,5 +317,20 @@ const kanjis260621 = [
           "リン"
         ],
         jlpt: 1,
+    }, {
+        kanji: "淡",
+        meanings: [
+          "thin",
+          "faint",
+          "pale",
+          "fleeting"
+        ],
+        kun_readings: [
+          "あわ.い"
+        ],
+        on_readings: [
+          "タン"
+        ],
+        jlpt: 1,
     }
 ]
