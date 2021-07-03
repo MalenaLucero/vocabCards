@@ -1,4 +1,4 @@
-const data120621 = [
+const expressions120621 = [
     {
         word: "安息",
         reading: "あんそく",

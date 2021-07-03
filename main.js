@@ -1,19 +1,29 @@
 const rawData = {
-    '120621': data120621,
-    '260621': data260621
+    expressions: {
+        '120621': expressions120621,
+        '260621': expressions260621
+    }, kanjis: {
+        '120621': kanjis120621,
+        '260621': kanjis260621
+    }
+    
 }
 
 const filterData = (filter) => {
-    const data = filter.date === '' ? rawData : rawData[filter.date]
+    const { date, type } = filter
+    const dataByType = rawData[type];
+    const data = date === '' ? dataByType : dataByType[date]
     return Object.keys(data).map(key => data[key]).flat()
 }
 
-const sendData = () => {
+const sendData = (type) => {
     const filter = {
-        date: document.getElementById('dateSelect').value
+        date: document.getElementById('dateSelect').value,
+        type: type
     }
     const filteredData = filterData(filter)
     window.localStorage.setItem('data', JSON.stringify(filteredData))
+    window.localStorage.setItem('type', type)
     window.location.href = './card/card.html'
 }
 
