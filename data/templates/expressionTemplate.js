@@ -1,4 +1,4 @@
-const data = [
+const expressions = [
     {
         word: "",
         reading: "",

@@ -14,8 +14,10 @@
     <script type="text/javascript" src="data/dates.js"></script>
 </head>
 <body>
+    <h1>Filters</h1>
+    <!-- CARDS -->
+    <h2>Cards</h2>
     <div>
-        <h1>Filters</h1>
         <label>
             <span>Select date</span>
             <select id="dateSelect"></select>
@@ -25,6 +27,10 @@
     <button onclick="sendData('expressions')">Go to expression cards</button>
     <p></p>
     <button onclick="sendData('kanjis')">Go to kanji cards</button>
+    <p></p>
+    <button onclick="sendListData('expressions')">See expressions list</button>
+    <p></p>
+    <button onclick="sendListData('kanjis')">See kanji list</button>
     <script type="text/Javascript" src="main.js"></script>
 </body>
 </html>

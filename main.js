@@ -27,7 +27,18 @@ const sendData = (type) => {
     window.location.href = './card/card.html'
 }
 
-const initializeDatesSelect = () => {
+const sendListData = (type) => {
+    const filter = {
+        date: document.getElementById('dateSelect').value,
+        type: type
+    }
+    const filteredData = filterData(filter)
+    window.localStorage.setItem('data', JSON.stringify(filteredData))
+    window.localStorage.setItem('type', type)
+    window.location.href = './list/list.html'
+}
+
+const initializeDatesSelect = idSelect => {
     let dateSelectValues = []
     dates.forEach(date => {
         const array = date.split('')
@@ -36,14 +47,11 @@ const initializeDatesSelect = () => {
         dateSelectValues.push(textAndValue)
     })
     dateSelectValues.unshift({text: 'All', value: ''})
-    populateSelect('dateSelect', dateSelectValues)
+    populateSelect(idSelect, dateSelectValues)
 }
 
 const initialize = () => {
-    initializeDatesSelect()
+    initializeDatesSelect('dateSelect')
 }
 
 initialize()
-
-
-
