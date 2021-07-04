@@ -13,7 +13,21 @@ const filterData = (filter) => {
     const { date, type } = filter
     const dataByType = rawData[type];
     const data = date === '' ? dataByType : dataByType[date]
-    return Object.keys(data).map(key => data[key]).flat()
+    if (type === 'kanjis') {
+        const kanjisFlattenedData = Object.keys(data).map(key => data[key]).flat()
+        const expressionsFlattenedData = Object.keys(rawData.expressions).map(key => rawData.expressions[key]).flat()
+        return kanjisFlattenedData.map(kanjiObj => {
+            let wordArray = []
+            expressionsFlattenedData.forEach(expressionObj => {
+                if (expressionObj.word.includes(kanjiObj.kanji)) {
+                    wordArray.push(`${expressionObj.word} (${expressionObj.reading})`)
+                }
+            })
+            return { ...kanjiObj, words: wordArray }
+        })
+    } else {
+        return Object.keys(data).map(key => data[key]).flat()
+    }
 }
 
 const sendData = (type) => {

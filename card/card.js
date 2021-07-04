@@ -41,6 +41,7 @@ const generateCard = () => {
         generateCardDetails(data.japaneseMeaning, 'Show Japanese meaning')
     } else if (dataType === 'kanjis') {
         insertText('mainExpression', data.kanji)
+        generateCardDetails(data.words, 'Show words with this kanji')
         generateCardDetails(data.kun_readings, 'Show kun readings')
         generateCardDetails(data.on_readings, 'Show on readings')
         generateCardDetails(data.meanings, 'Show meanings')
