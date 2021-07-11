@@ -15,22 +15,20 @@
 </head>
 <body>
     <h1>Filters</h1>
-    <!-- CARDS -->
-    <h2>Cards</h2>
     <div>
+        <label>
+            <span>Select type</span>
+            <select id="typeSelect"></select>
+        </label>
         <label>
             <span>Select date</span>
             <select id="dateSelect"></select>
         </label>
     </div>
     <p></p>
-    <button onclick="sendData('expressions')">Go to expression cards</button>
+    <button onclick="sendCardData()">Go to cards</button>
     <p></p>
-    <button onclick="sendData('kanjis')">Go to kanji cards</button>
-    <p></p>
-    <button onclick="sendListData('expressions')">See expressions list</button>
-    <p></p>
-    <button onclick="sendListData('kanjis')">See kanji list</button>
+    <button onclick="sendListData()">Go to list</button>
     <script type="text/Javascript" src="main.js"></script>
 </body>
 </html>

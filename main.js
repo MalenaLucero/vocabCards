@@ -30,29 +30,30 @@ const filterData = (filter) => {
     }
 }
 
-const sendData = (type) => {
-    const filter = {
+const generateFilter = () => {
+    return {
         date: document.getElementById('dateSelect').value,
-        type: type
+        type: document.getElementById('typeSelect').value
     }
+}
+
+const sendCardData = () => {
+    const filter = generateFilter()
     const filteredData = filterData(filter)
     window.localStorage.setItem('data', JSON.stringify(filteredData))
-    window.localStorage.setItem('type', type)
+    window.localStorage.setItem('type', filter.type)
     window.location.href = './card/card.html'
 }
 
-const sendListData = (type) => {
-    const filter = {
-        date: document.getElementById('dateSelect').value,
-        type: type
-    }
+const sendListData = () => {
+    const filter = generateFilter()
     const filteredData = filterData(filter)
     window.localStorage.setItem('data', JSON.stringify(filteredData))
-    window.localStorage.setItem('type', type)
+    window.localStorage.setItem('type', filter.type)
     window.location.href = './list/list.html'
 }
 
-const initializeDatesSelect = idSelect => {
+const initializeDateSelect = () => {
     let dateSelectValues = []
     dates.forEach(date => {
         const array = date.split('')
@@ -61,11 +62,22 @@ const initializeDatesSelect = idSelect => {
         dateSelectValues.push(textAndValue)
     })
     dateSelectValues.unshift({text: 'All', value: ''})
-    populateSelect(idSelect, dateSelectValues)
+    populateSelect('dateSelect', dateSelectValues)
+}
+
+const inititalizeTypeSelect = () => {
+    const types = Object.keys(rawData)
+    typeSelectValues = types.map(type => {
+        const text = type.charAt(0).toUpperCase() + type.slice(1)
+        const value = type
+        return { text: text, value: value }
+    })
+    populateSelect('typeSelect', typeSelectValues)
 }
 
 const initialize = () => {
-    initializeDatesSelect('dateSelect')
+    initializeDateSelect()
+    inititalizeTypeSelect()
 }
 
 initialize()
