@@ -1,10 +1,12 @@
 const rawData = {
     expressions: {
         '120621': expressions120621,
-        '260621': expressions260621
+        '260621': expressions260621,
+        '100721': expressions100721
     }, kanjis: {
         '120621': kanjis120621,
-        '260621': kanjis260621
+        '260621': kanjis260621,
+        '100721': kanjis100721
     }
     
 }
