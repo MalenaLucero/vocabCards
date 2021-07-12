@@ -55,6 +55,11 @@ const sendListData = () => {
     window.location.href = './list/list.html'
 }
 
+const goToSearch = () => {
+    window.localStorage.setItem('data', JSON.stringify(rawData))
+    window.location.href = './search/search.html'
+}
+
 const initializeDateSelect = () => {
     let dateSelectValues = []
     dates.forEach(date => {

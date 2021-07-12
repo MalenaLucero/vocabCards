@@ -31,6 +31,31 @@ const insertTextInList = (elementId, stringArray) => {
     })
 }
 
+const insertTextAsElement = (elementId, tag, title) => {
+    const element = document.getElementById(elementId)
+    const createdElement = document.createElement(tag)
+    createdElement.innerText = title
+    element.appendChild(createdElement)
+}
+
+const showExpressionData = (elementId, data) => {
+    const element = document.getElementById(elementId)
+    const container = document.createElement('div')
+    const p = document.createElement('p')
+    p.innerText = data.word
+    container.appendChild(p)
+    element.appendChild(container)
+}
+
+const showKanjiData = (elementId, data) => {
+    const element = document.getElementById(elementId)
+    const container = document.createElement('div')
+    const p = document.createElement('p')
+    p.innerText = data.kanji
+    container.appendChild(p)
+    element.appendChild(container)
+}
+
 const cleanInnerHtml = (elementId) => {
     const element = document.getElementById(elementId)
     element.innerHTML = ''
