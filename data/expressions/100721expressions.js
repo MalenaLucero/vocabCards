@@ -75,5 +75,62 @@ const expressions100721 = [
             }
         ],
         tags: []
+    }, {
+        word: "絶えず",
+        reading: "たえず",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["constantly; always; continually; steadily"],
+        japaneseMeaning: ["とぎれることなく、引き続き行われているさま。間断なく。いつも。「絶えず水が湧 (わ) き出ている」"],
+        exampleSentences: [
+            {
+                sentence: "移り変わる季節を絶えず感じ取って",
+                source: {
+                    name: "月と太陽だけ - 秋山黄色",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "芽",
+        reading: "め",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["sprout; shoot; bud"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "僕等 言えない言葉が少しだけ芽を見せる",
+                source: {
+                    name: "月と太陽だけ - 秋山黄色",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "どろん",
+        reading: "",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: [],
+        japaneseMeaning: ["急に姿を隠すこと。「借金を残してどろんする」", "空気や液体などが重くよどんでいるさま。「どろんとよどんだ沼」「どろんと濁った目」"],
+        exampleSentences: [
+            {
+                sentence: "どろんと溶ける世界で月と太陽だけ / どうしようもない所が似てるね / 夜はまだ暗そうだけど",
+                source: {
+                    name: "月と太陽だけ - 秋山黄色",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
     }
 ]

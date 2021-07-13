@@ -79,5 +79,28 @@ const kanjis100721 = [
           "ノン"
         ],
         jlpt: 2,
+    }, {
+      kanji: "絶",
+      meanings: [
+        "discontinue",
+        "sever",
+        "cut off",
+        "abstain",
+        "interrupt",
+        "suppress",
+        "be beyond",
+        "without match",
+        "peerless",
+        "unparalleled"
+      ],
+      kun_readings: [
+        "た.える",
+        "た.やす",
+        "た.つ"
+      ],
+      on_readings: [
+        "ゼツ"
+      ],
+      jlpt: 2,
     }
 ]
