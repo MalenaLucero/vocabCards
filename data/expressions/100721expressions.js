@@ -132,5 +132,138 @@ const expressions100721 = [
             }
         ],
         tags: []
+    }, {
+        word: "出勤者",
+        reading: "しゅっきんしゃ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["workers on the job"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "政府が「出勤者数の7割削減」を呼びかける中、テレワークが広がっています",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "削減",
+        reading: "さくげん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["cut; reduction; curtailment"],
+        japaneseMeaning: ["現にあるものを、けずってへらすこと。「予算を削減する」"],
+        exampleSentences: [
+            {
+                sentence: "政府が「出勤者数の7割削減」を呼びかける中、テレワークが広がっています",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "実施",
+        reading: "さくげん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["enforcement; implementation; putting into practice; carrying out; operation; working (e.g. working parameters); enactment"],
+        japaneseMeaning: ["法律・計画などを実際に行うこと。「試験を実施する」「実施要綱」"],
+        exampleSentences: [
+            {
+                sentence: "テレワークが広がっていますが、一度は実施したものの、今は取りやめたという企業も多いことがわかりました。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "在宅勤務",
+        reading: "ざいたくきんむ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["working at home; telecommuting"],
+        japaneseMeaning: ["自宅にいながら仕事をすること。またその勤務形態。自宅のパソコンから、勤務先のサーバーとインターネットを通じて情報を送受して行う場合が多い。WFH（work from home）。→テレワーク"],
+        exampleSentences: [
+            {
+                sentence: "在宅勤務やテレワークについて「現在、実施している」と答えた企業は3754社",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "増加",
+        reading: "ぞうか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["increase; rise; growth"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "在宅勤務やテレワークについて「現在、実施している」と答えた企業は3754社、率にして38％で、この2か月前のことし1月に実施した同じ調査より3ポイント増加していました",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "規模",
+        reading: "きぼ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["scale; scope; plan; structure"],
+        japaneseMeaning: ["物事の構造・内容・仕組みなどの大きさ。「雄大な規模の構想」「地球規模の環境汚染」"],
+        exampleSentences: [
+            {
+                sentence: "会社の規模別にみると、資本金が1億円以上の企業では69％だったのに対し、1億円未満の企業は33％で、規模の大きな企業で実施率が高くなっています。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "拡大",
+        reading: "かくだい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["magnification; enlargement; expansion; amplification"],
+        japaneseMeaning: ["広げて大きくすること。また、広がって大きくなること。郭大。「勢力の拡大を図る」「写真を拡大する」⇔縮小"],
+        exampleSentences: [
+            {
+                sentence: "ただ「新型コロナウイルスの感染が拡大して以降に実施したが、現在は取りやめた」と答えた企業が17％にあたる",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
     }
 ]
