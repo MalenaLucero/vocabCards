@@ -265,5 +265,119 @@ const expressions100721 = [
             }
         ],
         tags: ["仕事"]
+    }, {
+        word: "改善",
+        reading: "かいぜん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["betterment; improvement", "Japanese business philosophy of continuous improvement"],
+        japaneseMeaning: ["悪いところを改めてよくすること。「生活を改善する」⇔改悪。[補説]トヨタの生産方式を象徴する言葉として世界で知られる。"],
+        exampleSentences: [
+            {
+                sentence: "家庭内の課題については「インターネット環境の改善」",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "克服",
+        reading: "こくふく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["conquest (of a difficulty, illness, handicap, etc.); overcoming; bringing under control; subjugation; victory over"],
+        japaneseMeaning: ["努力して困難にうちかつこと。「病を克服する」"],
+        exampleSentences: [
+            {
+                sentence: "テレワークならではの課題を克服し、今後も続けていくために独自のルールを取り入れる動きもあります。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "事務系労働者",
+        reading: "じむけいろうどうしゃ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["white-collar"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "事務系の社員だけでなくエンジニアも対象にしています。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "敢えて",
+        reading: "あえて",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["purposely (of something needless, unexpected or seemingly counterproductive, etc.); daringly (doing something); deliberately; intentionally"],
+        japaneseMeaning: ["やりにくいことを押しきってするさま。無理に。「言いにくいことを敢えて言おう」"],
+        exampleSentences: [
+            {
+                sentence: "仕事で気付いたことやわからないことなどを上司や同僚どうしで話し合う「リアル」のコミュニケーションをあえてつくることでテレワークを効率的に進めようというねらいです。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "ざっくばらん",
+        reading: "",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["frank; candid; outspoken; unreserved"],
+        japaneseMeaning: ["遠慮がなく率直なさま。もったいぶったところがなく、素直に心情を表すさま。「ざっくばらんに言わせてもらう」「ざっくばらんな人柄」"],
+        exampleSentences: [
+            {
+                sentence: "『チームデー』では、ざっくばらんに全員と会話ができるよう心がけています」と話していました。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "改革",
+        reading: "かいかく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["reform; reformation; reorganization"],
+        japaneseMeaning: ["従来の制度などを改めてよりよいものにすること。「機構を改革する」"],
+        exampleSentences: [
+            {
+                sentence: "本部長は「『やってもいいですよ』と言われるより、『やらないとダメです』と言われるほうがいかにうまくやれるか考える。意識改革を起こすためにはときには強制力も必要だ」と話しています。",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
     }
 ]
