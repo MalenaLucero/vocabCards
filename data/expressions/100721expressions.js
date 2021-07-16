@@ -379,5 +379,81 @@ const expressions100721 = [
             }
         ],
         tags: ["仕事"]
+    }, {
+        word: "機微",
+        reading: "きび",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["subtleties; niceties; fine points; inner workings; secrets​", "subtle; sensitive"],
+        japaneseMeaning: ["表面だけでは知ることのできない、微妙なおもむきや事情。「人情の機微に触れる」"],
+        exampleSentences: [
+            {
+                sentence: "IT企業に勤めている長女もテレワークをしていて、お互い企業秘密につながる機微な情報を取り扱っている",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "収納",
+        reading: "しゅうのう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["storage; putting or stowing away"],
+        japaneseMeaning: ["中に入れて、しまっておくこと。「たんすに衣類を収納する」「収納家具」"],
+        exampleSentences: [
+            {
+                sentence: "福島さんはタンスなどをしまってある収納スペースで、長女はリビングと別々の場所でテレワークをしています",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "往復",
+        reading: "おうふく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["making a round trip; going and returning; coming and going"],
+        japaneseMeaning: ["行きと帰り。行って帰ること。ゆきかえり。「往復には三時間以上かかる」「駅まで自転車で往復する」「往復乗車券」"],
+        exampleSentences: [
+            {
+                sentence: "通勤に往復1時間半以上、かかっていたため、負担が少なくなったのはメリットだと感じています",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["仕事"]
+    }, {
+        word: "心構え",
+        reading: "こころがまえ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["preparedness; readiness; mental attitude; frame of mind"],
+        japaneseMeaning: ["物事に対処する心の準備。覚悟。「いざという時の心構え」"],
+        exampleSentences: [
+            {
+                sentence: "テレワークをずっとしている大手企業でも一気にやれたわけではなく、トライの積み重ねでできるようになった。少しずつトライすることが中小企業でも進めやすくなる心構えだ",
+                source: {
+                    name: "NHK - テレワーク 実施後取りやめた企業も 継続させるポイントは",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
     }
 ]
