@@ -63,6 +63,7 @@ const cleanInnerHtml = (elementId) => {
 
 const populateSelect = (elementId, textAndValue) => {
     const select = document.getElementById(elementId)
+    cleanInnerHtml(elementId)
     textAndValue.forEach(obj => {
         const option = document.createElement('option')
         option.value = obj.value

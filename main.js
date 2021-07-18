@@ -4,7 +4,6 @@ const rawData = {
         '260621': expressions260621,
         '100721': expressions100721
     }, kanjis: {
-        '120621': kanjis120621,
         '260621': kanjis260621,
         '100721': kanjis100721
     }
@@ -60,8 +59,9 @@ const goToSearch = () => {
     window.location.href = './search/search.html'
 }
 
-const initializeDateSelect = () => {
+const initializeDateSelect = type => {
     let dateSelectValues = []
+    const dates = Object.keys(rawData[type])
     dates.forEach(date => {
         const array = date.split('')
         const dateText = `${array[0]}${array[1]}-${array[2]}${array[3]}-${array[4]}${array[5]}`
@@ -80,10 +80,15 @@ const inititalizeTypeSelect = () => {
         return { text: text, value: value }
     })
     populateSelect('typeSelect', typeSelectValues)
+    const select = document.getElementById('typeSelect')
+    select.addEventListener('change', (event) => {
+        const type = event.target.value
+        initializeDateSelect(type)
+    });
 }
 
 const initialize = () => {
-    initializeDateSelect()
+    initializeDateSelect('expressions')
     inititalizeTypeSelect()
 }
 

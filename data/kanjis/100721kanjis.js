@@ -1,106 +1,43 @@
 const kanjis100721 = [
-    {
-        kanji: "散",
-        meanings: [
-          "scatter",
-          "disperse",
-          "spend",
-          "squander"
-        ],
-        kun_readings: [
-          "ち.る",
-          "ち.らす",
-          "-ち.らす",
-          "ち.らかす",
-          "ち.らかる",
-          "ち.らばる",
-          "ばら",
-          "ばら.ける"
-        ],
-        on_readings: [
-          "サン"
-        ],
-        jlpt: 2,
-    }, {
-        kanji: "呑",
-        meanings: [
-          "drink"
-        ],
-        kun_readings: [
-          "の.む"
-        ],
-        on_readings: [
-          "トン",
-          "ドン"
-        ],
-        jlpt: null,
-    }, {
-        kanji: "職",
-        meanings: [
-          "post",
-          "employment",
-          "work"
-        ],
-        kun_readings: [],
-        on_readings: [
-          "ショク",
-          "ソク"
-        ],
-        jlpt: 2,
-    }, {
-        kanji: "寒",
-        meanings: [
-          "cold"
-        ],
-        kun_readings: [
-          "さむ.い"
-        ],
-        on_readings: [
-          "カン"
-        ],
-        name_readings: [
-          "さ",
-          "さん"
-        ],
-        jlpt: 3,
-    }, {
-        kanji: "暖",
-        meanings: [
-          "warmth"
-        ],
-        kun_readings: [
-          "あたた.か",
-          "あたた.かい",
-          "あたた.まる",
-          "あたた.める"
-        ],
-        on_readings: [
-          "ダン",
-          "ノン"
-        ],
-        jlpt: 2,
-    }, {
-      kanji: "絶",
-      meanings: [
-        "discontinue",
-        "sever",
-        "cut off",
-        "abstain",
-        "interrupt",
-        "suppress",
-        "be beyond",
-        "without match",
-        "peerless",
-        "unparalleled"
-      ],
-      kun_readings: [
-        "た.える",
-        "た.やす",
-        "た.つ"
-      ],
-      on_readings: [
-        "ゼツ"
-      ],
-      jlpt: 2,
-    }
+    {"kanji":"増","grade":5,"stroke_count":14,"meanings":["increase","add","augment","gain","promote"],"kun_readings":["ま.す","ま.し","ふ.える","ふ.やす"],"on_readings":["ゾウ"],"name_readings":["まし","ます"],"jlpt":2,"unicode":"5897","heisig_en":"increase"},
+    {"kanji":"加","grade":4,"stroke_count":5,"meanings":["add","addition","increase","join","include","Canada"],"kun_readings":["くわ.える","くわ.わる"],"on_readings":["カ"],"name_readings":[],"jlpt":2,"unicode":"52a0","heisig_en":"add"},
+    {"kanji":"働","grade":4,"stroke_count":13,"meanings":["work","(kokuji)"],"kun_readings":["はたら.く"],"on_readings":["ドウ"],"name_readings":[],"jlpt":3,"unicode":"50cd","heisig_en":"work"},
+    {"kanji":"収","grade":6,"stroke_count":4,"meanings":["income","obtain","reap","pay","supply","store"],"kun_readings":["おさ.める","おさ.まる"],"on_readings":["シュウ"],"name_readings":["のぶ"],"jlpt":2,"unicode":"53ce","heisig_en":"income"},
+    {"kanji":"機","grade":4,"stroke_count":16,"meanings":["loom","mechanism","machine","airplane","opportunity","potency","efficacy","occasion"],"kun_readings":["はた"],"on_readings":["キ"],"name_readings":[],"jlpt":2,"unicode":"6a5f","heisig_en":"mechanism"},
+    {"kanji":"勤","grade":6,"stroke_count":12,"meanings":["diligence","become employed","serve"],"kun_readings":["つと.める","-づと.め","つと.まる","いそ.しむ"],"on_readings":["キン","ゴン"],"name_readings":[],"jlpt":2,"unicode":"52e4","heisig_en":"diligence"},
+    {"kanji":"者","grade":3,"stroke_count":8,"meanings":["someone","person"],"kun_readings":["もの"],"on_readings":["シャ"],"name_readings":[],"jlpt":3,"unicode":"8005","heisig_en":"someone"},
+    {"kanji":"系","grade":6,"stroke_count":7,"meanings":["lineage","system"],"kun_readings":[],"on_readings":["ケイ"],"name_readings":[],"jlpt":1,"unicode":"7cfb","heisig_en":"lineage"},
+    {"kanji":"定","grade":3,"stroke_count":8,"meanings":["determine","fix","establish","decide"],"kun_readings":["さだ.める","さだ.まる","さだ.か"],"on_readings":["テイ","ジョウ"],"name_readings":["さた"],"jlpt":2,"unicode":"5b9a","heisig_en":"determine"},
+    {"kanji":"寒","grade":3,"stroke_count":12,"meanings":["cold"],"kun_readings":["さむ.い"],"on_readings":["カン"],"name_readings":["さ","さん"],"jlpt":3,"unicode":"5bd2","heisig_en":"cold"},
+    {"kanji":"在","grade":5,"stroke_count":6,"meanings":["exist","outskirts","suburbs","located in"],"kun_readings":["あ.る"],"on_readings":["ザイ"],"name_readings":["あり"],"jlpt":2,"unicode":"5728","heisig_en":"exist"},
+    {"kanji":"削","grade":8,"stroke_count":9,"meanings":["plane","sharpen","whittle","pare","shave"],"kun_readings":["けず.る","はつ.る","そ.ぐ"],"on_readings":["サク"],"name_readings":["げ"],"jlpt":1,"unicode":"524a","heisig_en":"plane"},
+    {"kanji":"務","grade":5,"stroke_count":11,"meanings":["task","duties"],"kun_readings":["つと.める"],"on_readings":["ム"],"name_readings":["つかさ","み"],"jlpt":2,"unicode":"52d9","heisig_en":"task"},
+    {"kanji":"実","grade":3,"stroke_count":8,"meanings":["reality","truth"],"kun_readings":["み","みの.る","まこと","みの","みち.る"],"on_readings":["ジツ","シツ"],"name_readings":["ぐみ","さね"],"jlpt":2,"unicode":"5b9f","heisig_en":"reality"},
+    {"kanji":"宅","grade":6,"stroke_count":6,"meanings":["home","house","residence","our house","my husband"],"kun_readings":[],"on_readings":["タク"],"name_readings":["け","たか","たけ","や","やけ"],"jlpt":2,"unicode":"5b85","heisig_en":"home"},
+    {"kanji":"事","grade":3,"stroke_count":8,"meanings":["matter","thing","fact","business","reason","possibly"],"kun_readings":["こと","つか.う","つか.える"],"on_readings":["ジ","ズ"],"name_readings":["ろ"],"jlpt":3,"unicode":"4e8b","heisig_en":"matter"},
+    {"kanji":"呑","grade":null,"stroke_count":7,"meanings":["drink"],"kun_readings":["の.む"],"on_readings":["トン","ドン"],"name_readings":[],"jlpt":null,"unicode":"5451","heisig_en":"quaff"},
+    {"kanji":"往","grade":5,"stroke_count":8,"meanings":["journey","travel","chase away","let go","going","before","formerly"],"kun_readings":["い.く","いにしえ","さき.に","ゆ.く"],"on_readings":["オウ"],"name_readings":["みち"],"jlpt":1,"unicode":"5f80","heisig_en":"journey"},
+    {"kanji":"敢","grade":8,"stroke_count":12,"meanings":["daring","brave","bold","sad","tragic","pitiful"],"kun_readings":["あ.えて","あ.えない","あ.えず"],"on_readings":["カン"],"name_readings":[],"jlpt":1,"unicode":"6562","heisig_en":"daring"},
+    {"kanji":"芽","grade":4,"stroke_count":8,"meanings":["bud","sprout","spear","germ"],"kun_readings":["め"],"on_readings":["ガ"],"name_readings":["じ","めぐ"],"jlpt":1,"unicode":"82bd","heisig_en":"bud"},
+    {"kanji":"克","grade":8,"stroke_count":7,"meanings":["overcome","kindly","skillfully"],"kun_readings":["か.つ"],"on_readings":["コク"],"name_readings":["かつ","まさる","よし"],"jlpt":1,"unicode":"514b","heisig_en":"overcome"},
+    {"kanji":"散","grade":4,"stroke_count":12,"meanings":["scatter","disperse","spend","squander"],"kun_readings":["ち.る","ち.らす","-ち.らす","ち.らかす","ち.らかる","ち.らばる","ばら","ばら.ける"],"on_readings":["サン"],"name_readings":["ちる"],"jlpt":2,"unicode":"6563","heisig_en":"scatter"},
+    {"kanji":"心","grade":2,"stroke_count":4,"meanings":["heart","mind","spirit","heart radical (no. 61)"],"kun_readings":["こころ","-ごころ"],"on_readings":["シン"],"name_readings":[],"jlpt":3,"unicode":"5fc3","heisig_en":"heart"},
+    {"kanji":"復","grade":5,"stroke_count":12,"meanings":["restore","return to","revert","resume"],"kun_readings":["また"],"on_readings":["フク"],"name_readings":[],"jlpt":2,"unicode":"5fa9","heisig_en":"restore"},
+    {"kanji":"規","grade":5,"stroke_count":11,"meanings":["standard","measure"],"kun_readings":[],"on_readings":["キ"],"name_readings":["すのり","ただし","のり","み"],"jlpt":2,"unicode":"898f","heisig_en":"standard"},
+    {"kanji":"善","grade":6,"stroke_count":12,"meanings":["virtuous","good","goodness"],"kun_readings":["よ.い","い.い","よ.く","よし.とする"],"on_readings":["ゼン"],"name_readings":["たる","よし"],"jlpt":2,"unicode":"5584","heisig_en":"virtuous"},
+    {"kanji":"労","grade":4,"stroke_count":7,"meanings":["labor","thank for","reward for","toil","trouble"],"kun_readings":["ろう.する","いたわ.る","いた.ずき","ねぎら","つか.れる","ねぎら.う"],"on_readings":["ロウ"],"name_readings":[],"jlpt":2,"unicode":"52b4","heisig_en":"labor"},
+    {"kanji":"拡","grade":6,"stroke_count":8,"meanings":["broaden","extend","expand","enlarge"],"kun_readings":["ひろ.がる","ひろ.げる","ひろ.める"],"on_readings":["カク","コウ"],"name_readings":[],"jlpt":2,"unicode":"62e1","heisig_en":"broaden"},
+    {"kanji":"服","grade":3,"stroke_count":8,"meanings":["clothing","admit","obey","discharge"],"kun_readings":[],"on_readings":["フク"],"name_readings":["はっ","はつ","はら"],"jlpt":3,"unicode":"670d","heisig_en":"clothing"},
+    {"kanji":"改","grade":4,"stroke_count":7,"meanings":["reformation","change","modify","mend","renew","examine","inspect","search"],"kun_readings":["あらた.める","あらた.まる"],"on_readings":["カイ"],"name_readings":[],"jlpt":2,"unicode":"6539","heisig_en":"reformation"},
+    {"kanji":"微","grade":8,"stroke_count":13,"meanings":["delicate","minuteness","insignificance"],"kun_readings":["かす.か"],"on_readings":["ビ"],"name_readings":["み"],"jlpt":1,"unicode":"5fae","heisig_en":"delicate"},
+    {"kanji":"革","grade":6,"stroke_count":9,"meanings":["leather","skin","reform","become serious"],"kun_readings":["かわ"],"on_readings":["カク"],"name_readings":[],"jlpt":2,"unicode":"9769","heisig_en":"leather"},
+    {"kanji":"暖","grade":6,"stroke_count":13,"meanings":["warmth"],"kun_readings":["あたた.か","あたた.かい","あたた.まる","あたた.める"],"on_readings":["ダン","ノン"],"name_readings":[],"jlpt":2,"unicode":"6696","heisig_en":"warmth"},
+    {"kanji":"差","grade":4,"stroke_count":10,"meanings":["distinction","difference","variation","discrepancy","margin","balance"],"kun_readings":["さ.す","さ.し"],"on_readings":["サ"],"name_readings":[],"jlpt":2,"unicode":"5dee","heisig_en":"distinction"},
+    {"kanji":"模","grade":6,"stroke_count":14,"meanings":["imitation","copy","mock"],"kun_readings":[],"on_readings":["モ","ボ"],"name_readings":["がみ"],"jlpt":1,"unicode":"6a21","heisig_en":"imitation"},
+    {"kanji":"職","grade":5,"stroke_count":18,"meanings":["post","employment","work"],"kun_readings":[],"on_readings":["ショク","ソク"],"name_readings":["もと"],"jlpt":2,"unicode":"8077","heisig_en":"post"},
+    {"kanji":"施","grade":8,"stroke_count":9,"meanings":["give","bestow","perform","alms"],"kun_readings":["ほどこ.す"],"on_readings":["シ","セ"],"name_readings":[],"jlpt":1,"unicode":"65bd","heisig_en":"alms"},
+    {"kanji":"絶","grade":5,"stroke_count":12,"meanings":["discontinue","sever","cut off","abstain","interrupt","suppress","be beyond","without match","peerless","unparalleled"],"kun_readings":["た.える","た.やす","た.つ"],"on_readings":["ゼツ"],"name_readings":[],"jlpt":2,"unicode":"7d76","heisig_en":"discontinue"},
+    {"kanji":"減","grade":5,"stroke_count":12,"meanings":["dwindle","decrease","reduce","decline","curtail","get hungry"],"kun_readings":["へ.る","へ.らす"],"on_readings":["ゲン"],"name_readings":[],"jlpt":2,"unicode":"6e1b","heisig_en":"dwindle"},
+    {"kanji":"構","grade":5,"stroke_count":14,"meanings":["posture","build","pretend"],"kun_readings":["かま.える","かま.う"],"on_readings":["コウ"],"name_readings":["とち"],"jlpt":2,"unicode":"69cb","heisig_en":"posture"},
+    {"kanji":"納","grade":6,"stroke_count":10,"meanings":["settlement","obtain","reap","pay","supply","store"],"kun_readings":["おさ.める","-おさ.める","おさ.まる"],"on_readings":["ノウ","ナッ","ナ","ナン","トウ"],"name_readings":["の","ろ"],"jlpt":1,"unicode":"7d0d","heisig_en":"settlement"}
 ]
