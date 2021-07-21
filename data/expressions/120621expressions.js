@@ -309,5 +309,133 @@ const expressions120621 = [
             }
         ],
         tags: ["プログラミング"]
+    }, {
+        word: "作成",
+        reading: "さくせい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["preparing; writing; framing; making; producing; creating"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "英語で挨拶は、Greetingといいます。なので、ファイル名を「Greeting.java」としましょう。これでJavaファイルの作成はおわります。",
+                source: {
+                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "定義",
+        reading: "ていぎ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["definition"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "クラスを作ることをクラスを定義するといいます",
+                source: {
+                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "土台",
+        reading: "どだい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["foundation; base; basis"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "Javaでは、このクラスを組み合わせてプログラムを作っていきますので、Javaの土台となる部分になります",
+                source: {
+                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "波括弧",
+        reading: "なみかっこ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["curly bracket"],
+        japaneseMeaning: [],
+        exampleSentences: [],
+        tags: ["プログラミング"]
+    }, {
+        word: "括る",
+        reading: "くくる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to tie up; to tie together; to bind; to bundle"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "波括弧「 { } 」で、くくられた部分をブロックといいます。",
+                source: {
+                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "半角",
+        reading: "はんかく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["half-width characters (e.g. romaji); single-byte characters"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "メソッドの書き方は、パブリックと書いて、半角",
+                source: {
+                    name: "【Java超入門コース】05.プログラム実行方法 ｜プログラムを書いて動かしてみよう",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "丸括弧",
+        reading: "まるかっこ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["parentheses; round brackets"],
+        japaneseMeaning: [],
+        exampleSentences: [],
+        tags: ["プログラミング"]
+    }, {
+        word: "角括弧",
+        reading: "かくがっこ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["square brackets"],
+        japaneseMeaning: [],
+        exampleSentences: [],
+        tags: ["プログラミング"]
     }
 ]
