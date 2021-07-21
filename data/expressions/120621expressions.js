@@ -170,5 +170,144 @@ const expressions120621 = [
             }
         ],
         tags: ["仕事"]
+    }, {
+        word: "構造",
+        reading: "こうぞう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["structure; construction; pattern"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "「順次進行」「条件分岐」「繰り返し」です。この3つの動きのことをまとめて、プログラムの基本構造と言ったり、制御構造、制御フローと言ったりします。",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "順次",
+        reading: "じゅんじ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["in order; sequential; seriatim"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "順次進行とは、プログラムが書かれている上から順に処理をしていくというプログラムの構造です",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "条件分岐",
+        reading: "じょうけんぶんき",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["conditional branch"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "条件分岐とは、特定の条件のときはAという処理、そうじゃないときはBという処理をするプログラム構造です",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }, {
+                sentence: "繰り返しとは、決まった回数や条件を満たすまで同じ処理を繰り返すプログラム構造です",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "制御",
+        reading: "せいぎょ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["control (of a machine, device, etc.)"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "「順次進行」「条件分岐」「繰り返し」です。この3つの動きのことをまとめて、プログラムの基本構造と言ったり、制御構造、制御フローと言ったりします",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "表示",
+        reading: "ひょうじ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["indication; expression; showing; manifestation; demonstration​", "display; displaying"],
+        japaneseMeaning: ["はっきりと表し示すこと。「原料をラベルに表示する」", "図表にして示すこと。「生産額を表示する」"],
+        exampleSentences: [
+            {
+                sentence: "例えば、ソースコードが「おはよう」「こんにちは」「こんばんは」とパソコンの画面上に表示させるプログラムだったとします",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "値",
+        reading: "あたい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["value"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "例えば、あるデータの値が20以上なら「おとな」と画面上に表示させて、20未満なら「こども」と表示させるといった処理ができます",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
+    }, {
+        word: "反復",
+        reading: "はんぷく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["repetition; iteration; recursion"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "繰り返しは、反復処理といったりもします",
+                source: {
+                    name: "【Java超入門コース】04.プログラムの3つの基本構造｜プログラムの動きはシンプル。動きは3つだけ",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["プログラミング"]
     }
 ]
