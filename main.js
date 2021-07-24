@@ -7,7 +7,6 @@ const rawData = {
         '260621': kanjis260621,
         '100721': kanjis100721
     }
-    
 }
 
 const filterData = (filter) => {
@@ -27,15 +26,22 @@ const filterData = (filter) => {
             return { ...kanjiObj, words: wordArray }
         })
     } else {
-        return Object.keys(data).map(key => data[key]).flat()
+        const expressionsFlattenedData = Object.keys(data).map(key => data[key]).flat()
+        return filter.tag !== ''
+            ? expressionsFlattenedData.filter(e => e.tags.includes(filter.tag))
+            : expressionsFlattenedData 
     }
 }
 
 const generateFilter = () => {
-    return {
+    const filter = {
         date: document.getElementById('dateSelect').value,
-        type: document.getElementById('typeSelect').value
+        type: document.getElementById('typeSelect').value,
     }
+    if (filter.type === 'expressions') {
+        filter.tag = document.getElementById('tagSelect').value
+    }
+    return filter
 }
 
 const sendCardData = () => {
@@ -72,9 +78,9 @@ const initializeDateSelect = type => {
     populateSelect('dateSelect', dateSelectValues)
 }
 
-const inititalizeTypeSelect = () => {
+const initializeTypeSelect = () => {
     const types = Object.keys(rawData)
-    typeSelectValues = types.map(type => {
+    const typeSelectValues = types.map(type => {
         const text = type.charAt(0).toUpperCase() + type.slice(1)
         const value = type
         return { text: text, value: value }
@@ -84,12 +90,30 @@ const inititalizeTypeSelect = () => {
     select.addEventListener('change', (event) => {
         const type = event.target.value
         initializeDateSelect(type)
+        manageDynamicSelectsVisibility(type)
     });
+}
+
+const initializeTagSelect = () => {
+    const tagSelectValues = tags.map(tag => {
+        return { text: tag, value: tag }
+    })
+    tagSelectValues.unshift({ text: 'All', value: '' })
+    populateSelect('tagSelect', tagSelectValues)
+}
+
+const manageDynamicSelectsVisibility = (type) => {
+    if (type === 'expressions') {
+        makeElementVisible('tagSelectContainer')
+    } else {
+        makeElementNotVisible('tagSelectContainer')
+    }
 }
 
 const initialize = () => {
     initializeDateSelect('expressions')
-    inititalizeTypeSelect()
+    initializeTypeSelect()
+    initializeTagSelect()
 }
 
 initialize()
