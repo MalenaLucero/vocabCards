@@ -19,6 +19,25 @@ const expressions120621 = [
         ],
         tags: []
     }, {
+        word: "足枷",
+        reading: "あしかせ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["fetters; shackles; hobbles; encumbrance; hindrance; burden; trap"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "想い出の足枷を解いて、幸せになってね",
+                source: {
+                    name: "君のつづき - Kitani Tatsuya",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
         word: "破片",
         reading: "はへん",
         transitivity: {
@@ -30,6 +49,44 @@ const expressions120621 = [
         exampleSentences: [
             {
                 sentence: "粉々になった心の破片で、足の踏み場もない部屋",
+                source: {
+                    name: "穴の空いた生活 - Kitani Tatsuya",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "覗く",
+        reading: "のぞく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to peek (through a keyhole, gap, etc.)"],
+        japaneseMeaning: ["物陰やすきま、小さな穴などから見る。「鍵穴から―・く」「部屋を―・く」"],
+        exampleSentences: [
+            {
+                sentence: "まるで君がこちらを覗く窓みたいだ / 温みが残る僕の続きを、笑って眺めていて",
+                source: {
+                    name: "穴の空いた生活 - Kitani Tatsuya",
+                    link: ""
+                }
+            }
+        ],
+        tags: []
+    }, {
+        word: "淡い",
+        reading: "あわい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["light; faint; pale; fleeting"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "君との淡い幸せな記憶に、たまには逃げてもいいかな",
                 source: {
                     name: "穴の空いた生活 - Kitani Tatsuya",
                     link: ""
