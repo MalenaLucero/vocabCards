@@ -17,7 +17,7 @@ const expressions260621 = [
                     }
                 }
             ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "腐敗",
         reading: "ふはい",
@@ -36,7 +36,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "塞ぐ",
         reading: "ふさぐ",
@@ -55,7 +55,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "囁く",
         reading: "ささやく",
@@ -76,7 +76,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "彷徨う",
         reading: "さまよう",
@@ -97,7 +97,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "嗅ぐ",
         reading: "かぐ",
@@ -117,7 +117,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "再発",
         reading: "さいはつ",

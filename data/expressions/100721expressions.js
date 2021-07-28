@@ -17,7 +17,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "呑む",
         reading: "のむ",
@@ -36,7 +36,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "定職",
         reading: "ていしょく",
@@ -55,7 +55,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "寒暖差",
         reading: "かんだんさ",
@@ -74,7 +74,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "絶えず",
         reading: "たえず",
@@ -93,7 +93,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "芽",
         reading: "め",
@@ -112,7 +112,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "どろん",
         reading: "",
@@ -131,7 +131,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "出勤者",
         reading: "しゅっきんしゃ",

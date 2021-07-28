@@ -17,7 +17,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "皺",
         reading: "しわ",
@@ -36,7 +36,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "投げ売り",
         reading: "なうげり",
@@ -55,7 +55,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "書き足す",
         reading: "かきたす",
@@ -74,7 +74,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "駄文",
         reading: "だぶん",
@@ -93,7 +93,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "脚本",
         reading: "きゃくほん",
@@ -112,7 +112,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "芝居",
         reading: "しばい",
@@ -131,7 +131,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "秒針",
         reading: "びょうしん",
@@ -150,7 +150,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "区切る",
         reading: "くぎる",
@@ -169,7 +169,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "愚か",
         reading: "おろか",
@@ -188,7 +188,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "足掻く",
         reading: "あがく",
@@ -207,7 +207,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "立ち尽くす",
         reading: "たちつくす",
@@ -226,6 +226,196 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
+    }, {
+        word: "泡",
+        reading: "あわ / あぶく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["bubble; foam; froth; head on beer"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "消えたの / 泡となり / 消えたの / いつの間にか",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "清らか",
+        reading: "きよらか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["clean; pure; chaste"],
+        japaneseMeaning: ["けがれなく澄みきって美しいさま。清純なさま。「清らかな谷川の流れ」「清らかな愛」"],
+        exampleSentences: [
+            {
+                sentence: "わかってりゃ / もっとずっと一層 / 清らかに / 溶け合ったのにね / この気持ち",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "跳ねる",
+        reading: "はねる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to jump; to leap; to prance; to spring up; to bound; to hop​", "to break up; to close; to come to an end​", "to hit (e.g. to have a car hit something or someone)"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "跳ねたの / 魚と成り",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "軽やか",
+        reading: "かろやか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["light; easy; non-serious; minor"],
+        japaneseMeaning: ["いかにも軽そうなさま。軽快なさま。かろらか。かるやか。「軽やかな身のこなし」"],
+        exampleSentences: [
+            {
+                sentence: "誰よりも / 軽やかに",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "パチン",
+        reading: "",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["with a click; with a snap"],
+        japaneseMeaning: ["固い物が強く当たって立てる音を表す語。「ぱちり」よりも鋭い感じを表す。「ぱちんとスナップを留める」「指をぱちんと鳴らす」", "物が勢いよくはじけたりする音を表す語。「栗がぱちんとはぜる」"],
+        exampleSentences: [
+            {
+                sentence: "パチンと弾けて / 泡のように消えた",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "弾ける",
+        reading: "はじける",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to burst open; to split open; to pop"],
+        japaneseMeaning: ["中身がいっぱいになって、裂けて割れる。割れて口を開く。はぜる。「クリの実が―・ける」「ポケットが―・けそうだ」"],
+        exampleSentences: [
+            {
+                sentence: "パチンと弾けて / 泡のように消えた",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "呆気ない",
+        reading: "あっけない",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["unsatisfying; disappointing; abrupt; not enough; too quick; too short; over too soon"],
+        japaneseMeaning: ["思ったより内容が貧弱または単純で、おもしろみがない。期待外れでもの足りない。「―・い結末」「―・く敗れる」"],
+        exampleSentences: [
+            {
+                sentence: "呆気のない運命が心をえぐった",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "抉る",
+        reading: "あっけない",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to gouge; to hollow out; to bore; to excavate; to scoop out​Usually written using kana alone", "to greatly perturb; to cause emotional pain"],
+        japaneseMeaning: ["刃物などを深く刺し入れ、回して穴をあける。くりぬく。「りんごの芯を―・る」", "心に強い衝動や苦痛を与える。「胸を―・られる悲しみ」", "物事の隠れた面を鋭く追及する。「事件の核心を―・る」"],
+        exampleSentences: [
+            {
+                sentence: "呆気のない運命が心をえぐった",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "歯痒い",
+        reading: "はがゆい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["impatient; tantalized; tantalised; irritated; chagrined; chagrinned; vexed"],
+        japaneseMeaning: ["思いどおりにならなくて、いらだたしい。もどかしい。「―・くて見ていられない」"],
+        exampleSentences: [
+            {
+                sentence: "確かに感じた / 仄かに歯がゆい / 過ぎ去った運命に / 囚われたままで",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "何時しか",
+        reading: "いつしか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["before one knows; unnoticed; unawares"],
+        japaneseMeaning: ["いつのまにか。早くも。「何時しか今年も暮れてしまった」"],
+        exampleSentences: [
+            {
+                sentence: "いつしか夢中で / 追いかけてたのは影",
+                source: {
+                    name: "泡 - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
     }
 ]

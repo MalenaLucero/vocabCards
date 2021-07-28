@@ -17,7 +17,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "足枷",
         reading: "あしかせ",
@@ -36,7 +36,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "破片",
         reading: "はへん",
@@ -55,7 +55,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "覗く",
         reading: "のぞく",
@@ -74,7 +74,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "淡い",
         reading: "あわい",
@@ -93,7 +93,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌"]
     }, {
         word: "待遇",
         reading: "たいぐう",
