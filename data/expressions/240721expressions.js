@@ -362,7 +362,7 @@ const expressions240721 = [
         tags: ["歌"]
     }, {
         word: "抉る",
-        reading: "あっけない",
+        reading: "えぐる",
         transitivity: {
             type: "",
             opposingWord: ""
@@ -417,5 +417,138 @@ const expressions240721 = [
             }
         ],
         tags: ["歌"]
+    }, {
+        word: "要因",
+        reading: "よういん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["main cause; primary factor"],
+        japaneseMeaning: ["物事がそうなった主要な原因。「事件の要因を探る」"],
+        exampleSentences: [
+            {
+                sentence: "都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "坪",
+        reading: "つぼ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["tsubo; traditional unit of land area, approx. 3.31 square meters"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "1フロアの面積が100坪以上あるオフィスビル",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "賃料",
+        reading: "ちんりょう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["rent; rental"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "オフィス仲介大手の「三鬼商事」は、毎月、1フロアの面積が100坪以上あるオフィスビルの空室率や賃料などを調査しています",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "竣工",
+        reading: "しゅんこう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["completion of construction"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "しゅんこうした新築ビルでも空室率の上昇が続いていて、6月は9.85％の高い水準となりました",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "水準",
+        reading: "すいじゅん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["level; standard"],
+        japaneseMeaning: ["事物の一定の標準。また、価値・能力などを定めるときの標準となる程度。レベル。「技術が水準に達する」「水準を上回る成績」「生活水準が高い」", "土地・建物などの高低・水平の度合いを測ること。また、その道具。水盛 (みずもり) 。", "線路の曲線部における、左右のレールの高低差。"],
+        exampleSentences: [
+            {
+                sentence: "しゅんこうした新築ビルでも空室率の上昇が続いていて、6月は9.85％の高い水準となりました",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "何れも",
+        reading: "いずれも",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["any; all; every; both; either; none (with neg. verb)"],
+        japaneseMeaning: ["どれも。だれも。それぞれ。「何れもすぐれた短編を集める」"],
+        exampleSentences: [
+            {
+                sentence: "いずれも前の月より上昇した",
+                source: {
+                    name: "NHK - 都心オフィスの空室率 16か月連続上昇 テレワーク拡大が要因か",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "幾分",
+        reading: "いくぶん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["somewhat; to some extent; to some degree"],
+        japaneseMeaning: ["いくつかに分けたうちの一部分。いくらか。「もうけの幾分かを分けてやる」", "程度が小さいさま。いくらか。少し。「幾分気がひける」「幾分できが悪い」"],
+        exampleSentences: [
+            {
+                sentence: "いずれも前の月より上昇した",
+                source: {
+                    name: "新宿区は6.32％で、いくぶん低下しました。",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
     }
 ]
