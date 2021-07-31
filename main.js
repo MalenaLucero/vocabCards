@@ -112,6 +112,8 @@ const initializeTypeSelect = () => {
         const type = event.target.value
         initializeDateSelect(type)
         manageDynamicSelectsVisibility(type === 'expressions', 'tagSelectContainer')
+        const date = document.getElementById('dateSelect').value
+        manageDynamicSelectsVisibility(type === 'expressions' && date !== '', 'sourceSelectContainer')
     });
 }
 

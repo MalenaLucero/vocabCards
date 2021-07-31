@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.top-buttons-container button{
+    margin: 0px 5px;
+}
+
 .main-expression-container{
     text-align: center;
     font-size: 40px;
@@ -34,4 +38,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-details button{
+    background-color: var(--secondary);
 }

@@ -1,3 +1,15 @@
+:root{
+    --main: #262A53;
+    --contrast: #FFA0A0;
+    --secondary: #628395;
+    --light: #FFE3E3;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--main);
+}
+
 .visible {
     visibility: visible;
 }
@@ -13,13 +25,43 @@ ul {
 }
 
 button{
-    padding: 5px;
+    padding: 10px 30px;
+    background-color: var(--main);
+    color: white;
+    border: none;
+    box-shadow: none;
 }
 
-select{
+label span{
+    font-weight: bold;
+    color: var(--secondary)
+}
+
+select, input{
     margin: 10px 0px;
+    padding: 5px;
+    border: 1px solid var(--main);
+    font-size: 16px;
+}
+
+a{
+    color: var(--secondary);
 }
 
 .sourceSelect {
     display: block;
+}
+
+.buttonsContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonsContainer button{
+    width: 48%;
+    padding: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
