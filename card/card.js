@@ -2,6 +2,7 @@ let dataType
 let originalData
 let filteredData
 let counter = 0
+let cardCounter = 1
 
 const generateCardDetails = (text, message) => {
     const cardDetails = document.getElementById('card-details')
@@ -46,6 +47,12 @@ const generateCard = () => {
         generateCardDetails(data.on_readings, 'Show on readings')
         generateCardDetails(data.meanings, 'Show meanings')
     }
+    manageCardNumbers()
+}
+
+const manageCardNumbers = () => {
+    insertText('showedCards', cardCounter++)
+    insertText('totalCards', originalData.length)
 }
 
 const inititalize = () => {
