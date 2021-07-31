@@ -432,7 +432,15 @@ const expressions120621 = [
         },
         englishMeaning: ["curly bracket"],
         japaneseMeaning: [],
-        exampleSentences: [],
+        exampleSentences: [
+            {
+                sentence: "",
+                source: {
+                    name: "",
+                    link: ""
+                }
+            }
+        ],
         tags: ["プログラミング"]
     }, {
         word: "括る",
@@ -481,7 +489,15 @@ const expressions120621 = [
         },
         englishMeaning: ["parentheses; round brackets"],
         japaneseMeaning: [],
-        exampleSentences: [],
+        exampleSentences: [
+            {
+                sentence: "",
+                source: {
+                    name: "",
+                    link: ""
+                }
+            }
+        ],
         tags: ["プログラミング"]
     }, {
         word: "角括弧",
@@ -492,7 +508,15 @@ const expressions120621 = [
         },
         englishMeaning: ["square brackets"],
         japaneseMeaning: [],
-        exampleSentences: [],
+        exampleSentences: [
+            {
+                sentence: "",
+                source: {
+                    name: "",
+                    link: ""
+                }
+            }
+        ],
         tags: ["プログラミング"]
     }
 ]

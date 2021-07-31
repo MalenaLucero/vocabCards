@@ -78,3 +78,11 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+const manageDynamicSelectsVisibility = (condition, selectId) => {
+    if (condition) {
+        makeElementVisible(selectId)
+    } else {
+        makeElementNotVisible(selectId)
+    }
+}

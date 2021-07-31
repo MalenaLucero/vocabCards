@@ -29,9 +29,13 @@ const filterData = (filter) => {
         })
     } else {
         const expressionsFlattenedData = Object.keys(data).map(key => data[key]).flat()
-        return filter.tag !== ''
+        const dataFilteredByTag = filter.tag !== ''
             ? expressionsFlattenedData.filter(e => e.tags.includes(filter.tag))
-            : expressionsFlattenedData 
+            : expressionsFlattenedData
+        const dataFilteredBySource = filter.hasOwnProperty('source') && filter.source !== ''
+            ? dataFilteredByTag.filter(e => e.exampleSentences[0].source.name === filter.source)
+            : dataFilteredByTag
+        return dataFilteredBySource 
     }
 }
 
@@ -42,6 +46,9 @@ const generateFilter = () => {
     }
     if (filter.type === 'expressions') {
         filter.tag = document.getElementById('tagSelect').value
+    }
+    if (filter.date !== '') {
+        filter.source = document.getElementById('sourceSelect').value
     }
     return filter
 }
@@ -78,6 +85,18 @@ const initializeDateSelect = type => {
     })
     dateSelectValues.unshift({text: 'All', value: ''})
     populateSelect('dateSelect', dateSelectValues)
+    const select = document.getElementById('dateSelect')
+    select.addEventListener('change', (event) => {
+        const date = event.target.value
+        if (date !== '') {
+            const rawSources = rawData.expressions[date].map(e => e.exampleSentences[0].source.name)
+            const filteredSources = Array.from(new Set(rawSources)).filter(e => e !== '')
+            const sourcesSelectValues = filteredSources.map(source => ({ text: source, value: source }))
+            sourcesSelectValues.unshift({ text: 'All', value: '' })
+            populateSelect('sourceSelect', sourcesSelectValues)
+        }
+        manageDynamicSelectsVisibility(date !== '', 'sourceSelectContainer')
+    });
 }
 
 const initializeTypeSelect = () => {
@@ -92,7 +111,7 @@ const initializeTypeSelect = () => {
     select.addEventListener('change', (event) => {
         const type = event.target.value
         initializeDateSelect(type)
-        manageDynamicSelectsVisibility(type)
+        manageDynamicSelectsVisibility(type === 'expressions', 'tagSelectContainer')
     });
 }
 
@@ -102,14 +121,6 @@ const initializeTagSelect = () => {
     })
     tagSelectValues.unshift({ text: 'All', value: '' })
     populateSelect('tagSelect', tagSelectValues)
-}
-
-const manageDynamicSelectsVisibility = (type) => {
-    if (type === 'expressions') {
-        makeElementVisible('tagSelectContainer')
-    } else {
-        makeElementNotVisible('tagSelectContainer')
-    }
 }
 
 const initialize = () => {

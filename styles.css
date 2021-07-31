@@ -16,3 +16,10 @@ button{
     padding: 5px;
 }
 
+select{
+    margin: 10px 0px;
+}
+
+.sourceSelect {
+    display: block;
+}
