@@ -31,6 +31,7 @@ const generateCardDetails = (text, message) => {
 
 const generateCard = () => {
     const data = filteredData[0]
+    counter = 0;
     if (dataType === 'expressions') {
         insertText('mainExpression', data.word)
         generateCardDetails(data.reading, 'Show reading')
@@ -68,7 +69,9 @@ const inititalize = () => {
 inititalize()
 
 const showAll = () => {
-    htmlContainers.forEach(e => makeElementVisible(e))
+    for(let i = 0; i < counter; i++) {
+        makeElementVisible(i);
+    }
 }
 
 const showNextCard = () => {
