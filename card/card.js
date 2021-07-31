@@ -56,14 +56,20 @@ const manageCardNumbers = () => {
     insertText('totalCards', originalData.length)
 }
 
+const startAgain = () => {
+    cardCounter = 1;
+    filteredData = [ ...originalData ]
+    shuffleArray(filteredData)
+    cleanInnerHtml('card-details')
+    generateCard()
+}
+
 const inititalize = () => {
     dataType = window.localStorage.getItem('type')
     originalData = JSON.parse(window.localStorage.getItem('data'))
     window.localStorage.removeItem('data')
     window.localStorage.removeItem('type')
-    filteredData = [ ...originalData ]
-    shuffleArray(filteredData)
-    generateCard()
+    startAgain();
 }
 
 inititalize()
@@ -82,8 +88,4 @@ const showNextCard = () => {
     } else {
         console.log('no more cards')
     }
-}
-
-const startAgain = () => {
-    console.log('start again')
 }
