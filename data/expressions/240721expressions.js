@@ -550,5 +550,195 @@ const expressions240721 = [
             }
         ],
         tags: ["記事"]
+    }, {
+        word: "赴任",
+        reading: "ふにん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["moving to a different location to start a new job; (proceeding to) new appointment"],
+        japaneseMeaning: ["任地におもむくこと。「単身で赴任する」"],
+        exampleSentences: [
+            {
+                sentence: "ある日、夫が海外赴任となったら。妻であるあなたは仕事を辞めて、ついていくしかないと思いがちでしょうか",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "形成",
+        reading: "けいせい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["formation; molding; making up; taking form; giving form to"],
+        japaneseMeaning: ["一つのまとまったものに作り上げること。形づくること。「人格を形成する」"],
+        exampleSentences: [
+            {
+                sentence: "新型コロナの影響で急速に広がったテレワークが、海外からでも仕事を続けることを可能にし、女性たちのキャリア形成の支えにもなろうとしています",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "世帯",
+        reading: "せたい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["household; home; family; housekeeping"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "一方、共働き世帯では多くのケースで妻が、家族か仕事かの選択を迫られがちです。",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "一助",
+        reading: "いちじょ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["a help; an aid; some assistance"],
+        japaneseMeaning: ["わずかばかりの助け。少しの足し。「家計の一助とする」「理解の一助とする」"],
+        exampleSentences: [
+            {
+                sentence: "こうした女性たちにとって、企業が海外からのテレワークを認めると、キャリアを継続できる一助となります",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "断念",
+        reading: "だんねん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["abandoning (hope, plans); giving up"],
+        japaneseMeaning: ["自分の希望などを、きっぱりとあきらめること。「進学を断念する」"],
+        exampleSentences: [
+            {
+                sentence: "会社としては海外で暮らすことだけを理由に仕事を断念して欲しくなかったといいます",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "取得",
+        reading: "しゅとく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["acquisition; obtaining; gaining possession; purchase"],
+        japaneseMeaning: ["手に入れること。ある資格・権利・物品などを自分のものとして得ること。「免許を取得する」"],
+        exampleSentences: [
+            {
+                sentence: "ビザはどうやって取得？",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "公私",
+        reading: "こうし",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["public and private; official and personal; government and people"],
+        japaneseMeaning: ["おおやけとわたくし。公的な事と私的な事。「公私のけじめ」「公私にわたる」「公私混同」"],
+        exampleSentences: [
+            {
+                sentence: "公私ともに充実",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "的確",
+        reading: "てきかく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["precise; accurate; appropriate; exactly the right"],
+        japaneseMeaning: ["的 (まと) をはずさないで、まちがいがないこと。また、そのさま。てっかく。「意図を―に伝える」「―な判断」"],
+        exampleSentences: [
+            {
+                sentence: "短い時間に的確な判断と指示ができるよう前日の準備を万全にして臨んでいます",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "投資家",
+        reading: "とうしか",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["investor"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "キャリアを継続したい女性たちがこうした企業を選ぶようにもなり、人材が豊かになることで、周囲の評価、投資家たちの評価も上がってくるでしょう」",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
+    }, {
+        word: "好循環",
+        reading: "こうじゅんかん",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["virtuous cycle; virtuous circle"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "日本の働き方はそんな好循環が生まれる入口にいるように取材を通じて感じました",
+                source: {
+                    name: "NHK - キャリアをあきらめない 「越境テレワーク」という働き方",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["記事"]
     }
 ]
