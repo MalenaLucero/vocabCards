@@ -95,7 +95,7 @@ const initializeDateSelect = type => {
             sourcesSelectValues.unshift({ text: 'All', value: '' })
             populateSelect('sourceSelect', sourcesSelectValues)
         }
-        manageDynamicSelectsVisibility(date !== '', 'sourceSelectContainer')
+        manageSourceSelectDisplay()
     });
 }
 
@@ -111,10 +111,15 @@ const initializeTypeSelect = () => {
     select.addEventListener('change', (event) => {
         const type = event.target.value
         initializeDateSelect(type)
-        manageDynamicSelectsVisibility(type === 'expressions', 'tagSelectContainer')
-        const date = document.getElementById('dateSelect').value
-        manageDynamicSelectsVisibility(type === 'expressions' && date !== '', 'sourceSelectContainer')
+        manageDynamicSelectsDisplay(type === 'expressions', 'tagSelectContainer')
+        manageSourceSelectDisplay()
     });
+}
+
+const manageSourceSelectDisplay = () => {
+    const type = document.getElementById('typeSelect').value
+    const date = document.getElementById('dateSelect').value
+    manageDynamicSelectsDisplay(type === 'expressions' && date !== '', 'sourceSelectContainer')
 }
 
 const initializeTagSelect = () => {

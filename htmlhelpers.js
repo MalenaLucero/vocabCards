@@ -8,6 +8,16 @@ const makeElementNotVisible = (elementId) => {
     element.classList.replace('visible', 'not-visible')
 }
 
+const switchToDisplayBlock = (elementId) => {
+    const element = document.getElementById(elementId)
+    element.classList.replace('hide', 'show')
+}
+
+const switchToDisplayNone = (elementId) => {
+    const element = document.getElementById(elementId)
+    element.classList.replace('show', 'hide')
+}
+
 const toggleElementVisibility = (elementId) => {
     const element = document.getElementById(elementId)
     if (element.classList[0] === 'not-visible') {
@@ -79,10 +89,10 @@ function shuffleArray(array) {
     }
 }
 
-const manageDynamicSelectsVisibility = (condition, selectId) => {
+const manageDynamicSelectsDisplay = (condition, selectId) => {
     if (condition) {
-        makeElementVisible(selectId)
+        switchToDisplayBlock(selectId)
     } else {
-        makeElementNotVisible(selectId)
+        switchToDisplayNone(selectId)
     }
 }
