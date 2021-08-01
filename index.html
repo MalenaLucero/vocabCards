@@ -35,6 +35,14 @@
             <span>Source</span>
             <select id="sourceSelect"></select>
         </label>
+        <label class="hide" id="jlptSelectContainer">
+            <span>JLPT</span>
+            <select id="jlptSelect"></select>
+        </label>
+        <label class="hide" id="gradeSelectContainer">
+            <span>Grade</span>
+            <select id="gradeSelect"></select>
+        </label>
     </div>
     <div class="buttonsContainer">
         <button onclick="sendCardData()">Go to cards</button>
@@ -43,6 +51,7 @@
         <button onclick="runTests()">Run tests</button>
     </div>
     <script type="text/Javascript" src="main.js"></script>
+    <script type="text/Javascript" src="filter.js"></script>
     <script type="text/Javascript" src="test.js"></script>
 </body>
 </html>

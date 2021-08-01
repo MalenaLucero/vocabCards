@@ -96,3 +96,9 @@ const manageDynamicSelectsDisplay = (condition, selectId) => {
         switchToDisplayNone(selectId)
     }
 }
+
+const initializeDefaultSelect = (selectId, simpleValuesArray) => {
+    const selectValues = simpleValuesArray.map(level => ({ text: level, value: level }))
+    selectValues.unshift({ text: 'All', value: '' })
+    populateSelect(selectId, selectValues)
+}

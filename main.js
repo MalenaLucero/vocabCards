@@ -11,48 +11,6 @@ const rawData = {
     }
 }
 
-const filterData = (filter) => {
-    const { date, type } = filter
-    const dataByType = rawData[type];
-    const data = date === '' ? dataByType : dataByType[date]
-    if (type === 'kanjis') {
-        const kanjisFlattenedData = Object.keys(data).map(key => data[key]).flat()
-        const expressionsFlattenedData = Object.keys(rawData.expressions).map(key => rawData.expressions[key]).flat()
-        return kanjisFlattenedData.map(kanjiObj => {
-            let wordArray = []
-            expressionsFlattenedData.forEach(expressionObj => {
-                if (expressionObj.word.includes(kanjiObj.kanji)) {
-                    wordArray.push(`${expressionObj.word} (${expressionObj.reading})`)
-                }
-            })
-            return { ...kanjiObj, words: wordArray }
-        })
-    } else {
-        const expressionsFlattenedData = Object.keys(data).map(key => data[key]).flat()
-        const dataFilteredByTag = filter.tag !== ''
-            ? expressionsFlattenedData.filter(e => e.tags.includes(filter.tag))
-            : expressionsFlattenedData
-        const dataFilteredBySource = filter.hasOwnProperty('source') && filter.source !== ''
-            ? dataFilteredByTag.filter(e => e.exampleSentences[0].source.name === filter.source)
-            : dataFilteredByTag
-        return dataFilteredBySource 
-    }
-}
-
-const generateFilter = () => {
-    const filter = {
-        date: document.getElementById('dateSelect').value,
-        type: document.getElementById('typeSelect').value,
-    }
-    if (filter.type === 'expressions') {
-        filter.tag = document.getElementById('tagSelect').value
-    }
-    if (filter.date !== '') {
-        filter.source = document.getElementById('sourceSelect').value
-    }
-    return filter
-}
-
 const sendCardData = () => {
     const filter = generateFilter()
     const filteredData = filterData(filter)
@@ -112,6 +70,8 @@ const initializeTypeSelect = () => {
         const type = event.target.value
         initializeDateSelect(type)
         manageDynamicSelectsDisplay(type === 'expressions', 'tagSelectContainer')
+        manageDynamicSelectsDisplay(type === 'kanjis', 'jlptSelectContainer')
+        manageDynamicSelectsDisplay(type === 'kanjis', 'gradeSelectContainer')
         manageSourceSelectDisplay()
     });
 }
@@ -122,18 +82,12 @@ const manageSourceSelectDisplay = () => {
     manageDynamicSelectsDisplay(type === 'expressions' && date !== '', 'sourceSelectContainer')
 }
 
-const initializeTagSelect = () => {
-    const tagSelectValues = tags.map(tag => {
-        return { text: tag, value: tag }
-    })
-    tagSelectValues.unshift({ text: 'All', value: '' })
-    populateSelect('tagSelect', tagSelectValues)
-}
-
 const initialize = () => {
     initializeDateSelect('expressions')
     initializeTypeSelect()
-    initializeTagSelect()
+    initializeDefaultSelect('tagSelect', tags)
+    initializeDefaultSelect('jlptSelect', [1, 2, 3])
+    initializeDefaultSelect('gradeSelect', [1, 2, 3, 4, 5, 6, 7, 8])
 }
 
 initialize()
