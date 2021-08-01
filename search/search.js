@@ -18,7 +18,8 @@ const searchRawData = (type, searchInput) => {
         rawData[type][key].forEach(obj => {
             const property = type === 'expressions' ? 'word' : 'kanji'
             if(obj[property].includes(searchInput)) {
-                results.push(obj)
+                const data = { data: obj, date: key }
+                results.push(data)
             }
         })
     })

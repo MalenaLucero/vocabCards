@@ -52,7 +52,7 @@ const showExpressionData = (elementId, data) => {
     const element = document.getElementById(elementId)
     const container = document.createElement('div')
     const p = document.createElement('p')
-    p.innerText = data.word
+    p.innerText = `${data.data.word} (${data.date})`
     container.appendChild(p)
     element.appendChild(container)
 }
@@ -61,7 +61,7 @@ const showKanjiData = (elementId, data) => {
     const element = document.getElementById(elementId)
     const container = document.createElement('div')
     const p = document.createElement('p')
-    p.innerText = data.kanji
+    p.innerText = `${data.data.kanji} (${data.date})`
     container.appendChild(p)
     element.appendChild(container)
 }
