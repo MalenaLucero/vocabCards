@@ -1,13 +1,70 @@
 const expressions240721 = [
     {
-        word: "忘れ去る",
-        reading: "わすれさる",
+        word: "蚊帳の外",
+        reading: "かやのそと",
         transitivity: {
             type: "",
             opposingWord: ""
         },
-        englishMeaning: ["to forget completely; to leave behind"],
-        japaneseMeaning: ["すっかり忘れて、二度と思い出さない"],
+        englishMeaning: [],
+        japaneseMeaning: ["無視され、不利な扱いを受けること。また、物事に関与できない位置に置かれること。内情がわからない立場に置かれること。「当事者を蚊帳の外に置いて議論が進む」「優勝争いから遠のき蚊帳の外に追いやられる」"],
+        exampleSentences: [
+            {
+                sentence: "この世界の誰もが 君を忘れ去っても / 随分老けたねって 今日も隣で笑うから",
+                source: {
+                    name: "どろん - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "舐める",
+        reading: "なめる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to lick; to lap; to suck"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "今日だって 傷を舐めあって / 面の皮取り繕って",
+                source: {
+                    name: "どろん - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "舐める",
+        reading: "なめる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to lick; to lap; to suck"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "今日だって 傷を舐めあって / 面の皮取り繕って",
+                source: {
+                    name: "どろん - King Gnu",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "取り繕う",
+        reading: "とりつくろう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to keep up (appearances)"],
+        japaneseMeaning: [],
         exampleSentences: [
             {
                 sentence: "この世界の誰もが 君を忘れ去っても / 随分老けたねって 今日も隣で笑うから",
