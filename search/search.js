@@ -58,7 +58,7 @@ const showKanjiResults = results => {
 const cleanAndGetInputValue = () => {
     cleanInnerHtml('searchResult')
     insertTextAsElement('searchResult', 'h2', 'Results')
-    return document.getElementById('searchInput').value
+    return document.getElementById('searchInput').value.toLowerCase()
 }
 
 const search = () => {
