@@ -38,25 +38,6 @@ const expressions240721 = [
         ],
         tags: ["歌"]
     }, {
-        word: "舐める",
-        reading: "なめる",
-        transitivity: {
-            type: "",
-            opposingWord: ""
-        },
-        englishMeaning: ["to lick; to lap; to suck"],
-        japaneseMeaning: [],
-        exampleSentences: [
-            {
-                sentence: "今日だって 傷を舐めあって / 面の皮取り繕って",
-                source: {
-                    name: "どろん - King Gnu",
-                    link: ""
-                }
-            }
-        ],
-        tags: ["歌"]
-    }, {
         word: "取り繕う",
         reading: "とりつくろう",
         transitivity: {
