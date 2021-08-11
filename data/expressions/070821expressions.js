@@ -134,7 +134,7 @@ const expressions070821 = [
         tags: ["歌"]
     }, {
         word: "なぞる",
-        reading: null,
+        reading: "",
         transitivity: {
             type: "",
             opposingWord: ""
@@ -165,6 +165,253 @@ const expressions070821 = [
                 sentence: "好機到来 構想未来 行動して求めちゃって",
                 source: {
                     name: "スキライズム - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "裏腹",
+        reading: "うらはら",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: [],
+        japaneseMeaning: ["背と腹。また、裏と表。", "背中合わせ。隣り合わせの関係であること。「死と裏腹の危険な仕事」", "相反していること。また、そのさま。逆さま。反対。あべこべ。「気持ちと裏腹な言葉」"],
+        exampleSentences: [
+            {
+                sentence: "裏腹にピラニア食い散らかしてくわ",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "食い散らす",
+        reading: "くいちらす",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to eat untidily"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "裏腹にピラニア食い散らかしてくわ",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "群れる",
+        reading: "むれる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to crowd; to flock; to swarm"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "群れて 群れて 群れて 群れて 跡形もなく",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "跡形も無く",
+        reading: "あとかたもなく",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["without leaving any trace"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "群れて 群れて 群れて 群れて 跡形もなく",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "どさくさに紛れて",
+        reading: "どさくさにまぎれて",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["in the confusion of the moment; taking advantage of the confused state of affairs"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "どさくさに紛れてあなたの懐に入る",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "懐に入る",
+        reading: "ふところにはいる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to get in someone's pocket; to help oneself to someone's wallet​", "to curry favour (favor); to butter up; to make up to; to gain someone's trust"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "どさくさに紛れてあなたの懐に入る",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "受け流す",
+        reading: "ふところにはいる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to ward off (e.g. an attack); to fend off (e.g. a question); to elude; to evade; to dodge; to turn aside (e.g. a joke)"],
+        japaneseMeaning: ["切り込んできた刀を軽く受けて他にそらす。「相手の突きを払うように―・す」", "ほどよくあしらって相手の攻撃をかわす。さりげなくあしらう。「記者の質問を巧みに―・す」「柳に風と―・す」"],
+        exampleSentences: [
+            {
+                sentence: "だからワンツースリーで受け流せ 受け流せ かたくなな心",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "頑な",
+        reading: "かたくな",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["obstinate; stubborn; mulish; die-hard; bigoted"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "だからワンツースリーで受け流せ 受け流せ かたくなな心",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "水槽",
+        reading: "すいそう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["water tank; cistern"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "水槽の中で与えられるまで動かない",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "濡れる",
+        reading: "ぬれる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to get wet"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "濡れて 濡れて 濡れて 濡れて 臆病な牙で",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "臆病",
+        reading: "おくびょう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["cowardly; timid; easily frightened"],
+        japaneseMeaning: ["ちょっとしたことにも怖がったりしりごみしたりすること。また、そのような人や、そのさま。「臆病な子猫」「臆病者」"],
+        exampleSentences: [
+            {
+                sentence: "濡れて 濡れて 濡れて 濡れて 臆病な牙で",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "正義",
+        reading: "せいぎ",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["justice; right; righteousness"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "正義のピラニア 欲望のままに",
+                source: {
+                    name: "他所のピラニア - フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "欲望",
+        reading: "よくぼう",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["desire; appetite; lust"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "正義のピラニア 欲望のままに",
+                source: {
+                    name: "他所のピラニア - フレデリック",
                     link: ""
                 }
             }
