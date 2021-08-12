@@ -417,5 +417,81 @@ const expressions070821 = [
             }
         ],
         tags: ["歌"]
+    }, {
+        word: "褪せる",
+        reading: "あせる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to fade; to discolor; to discolour"],
+        japaneseMeaning: ["もとの色やつやが薄くなる。色がさめる。退色する。「日に焼けて染色が―・せる」"],
+        exampleSentences: [
+            {
+                sentence: "褪せたシャツを眺めてそっと / 熱くなった 熱くなった",
+                source: {
+                    name: "Sentimental Summer -  フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "鮮明",
+        reading: "せんめい",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["vivid; clear; distinct"],
+        japaneseMeaning: ["あざやかではっきりしているさま。「鮮明な印象」「態度を鮮明にする」「旗幟 (きし) 鮮明」"],
+        exampleSentences: [
+            {
+                sentence: "鮮明にいつだって いつだって 熱を帯びた歌が僕を呼んでいる",
+                source: {
+                    name: "Sentimental Summer -  フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "帯びる",
+        reading: "おびる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to wear (sword, decoration, etc.); to carry​", "to be entrusted (e.g. with a mission); to take on​", "to have a trace of; to be tinged with"],
+        japaneseMeaning: ["身につける。腰に下げる。「太刀を―・びる」", "引き受ける。負う。「重大な使命を―・びる」", "ある性質・成分・傾向などを含み持つ。その気味がある。「丸みを―・びる」「磁気を―・びる」"],
+        exampleSentences: [
+            {
+                sentence: "鮮明にいつだって いつだって 熱を帯びた歌が僕を呼んでいる",
+                source: {
+                    name: "Sentimental Summer -  フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
+    }, {
+        word: "灼く",
+        reading: "灼く",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to tan (i.e. suntan); to burn"],
+        japaneseMeaning: [],
+        exampleSentences: [
+            {
+                sentence: "砂に混じった想いを背負って / 灼けつく太陽 噛み締めたんだ",
+                source: {
+                    name: "Sentimental Summer -  フレデリック",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌"]
     }
 ]
