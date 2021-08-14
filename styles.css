@@ -61,17 +61,13 @@ select, input{
     font-size: 16px;
 }
 
-.form-select{
+.form-select, .form-control{
     width: 300px;
     display: inline;
 }
 
 .sourceSelect select{
     width: 80vw;
-}
-
-a{
-    color: var(--secondary);
 }
 
 .buttonsContainer{
