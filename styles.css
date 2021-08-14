@@ -8,6 +8,11 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: var(--main);
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
 }
 
 .visible {
@@ -56,6 +61,11 @@ select, input{
     font-size: 16px;
 }
 
+.form-select{
+    width: 300px;
+    display: inline;
+}
+
 .sourceSelect select{
     width: 80vw;
 }
@@ -76,4 +86,9 @@ a{
     padding: 30px;
     font-size: 20px;
     margin-bottom: 15px;
+}
+
+.btn-primary{
+    background-color: var(--main) !important;
+    border: 1px solid var(--main) !important;
 }

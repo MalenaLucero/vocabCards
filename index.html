@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"></link>
     <script type="text/javascript" src="data/expressions/260621expressions.js"></script>
     <script type="text/javascript" src="data/expressions/120621expressions.js"></script>
@@ -23,35 +24,36 @@
     <div>
         <label>
             <span>Type</span>
-            <select id="typeSelect"></select>
+            <select class="form-select" id="typeSelect"></select>
         </label>
         <label>
             <span>Date</span>
-            <select id="dateSelect"></select>
+            <select class="form-select" id="dateSelect"></select>
         </label>
         <label class="show" id="tagSelectContainer">
             <span>Tag</span>
-            <select id="tagSelect"></select>
+            <select class="form-select" id="tagSelect"></select>
         </label>
         <label class="sourceSelect hide" id="sourceSelectContainer">
             <span>Source</span>
-            <select id="sourceSelect"></select>
+            <select class="form-select" id="sourceSelect"></select>
         </label>
         <label class="hide" id="jlptSelectContainer">
             <span>JLPT</span>
-            <select id="jlptSelect"></select>
+            <select class="form-select" id="jlptSelect"></select>
         </label>
         <label class="hide" id="gradeSelectContainer">
             <span>Grade</span>
-            <select id="gradeSelect"></select>
+            <select class="form-select" id="gradeSelect"></select>
         </label>
     </div>
     <div class="buttonsContainer">
-        <button onclick="sendCardData()">Go to cards</button>
-        <button onclick="sendListData()">Go to list</button>
-        <button onclick="goToSearch()">Go to search</button>
-        <button onclick="runTests()">Run tests</button>
+        <button class="btn btn-primary" onclick="sendCardData()">Go to cards</button>
+        <button class="btn btn-primary" onclick="sendListData()">Go to list</button>
+        <button class="btn btn-primary" onclick="goToSearch()">Go to search</button>
+        <button class="btn btn-primary" onclick="runTests()">Run tests</button>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script type="text/Javascript" src="main.js"></script>
     <script type="text/Javascript" src="filter.js"></script>
     <script type="text/Javascript" src="test.js"></script>
