@@ -24,6 +24,8 @@ const generateCardDetails = (text, message) => {
     textContainer.id = counter++
     container.appendChild(textContainer)
     const button = document.createElement('button')
+    button.classList.add('btn')
+    button.classList.add('btn-secondary')
     button.onclick = () => toggleElementVisibility(textContainer.id)
     button.innerText = message
     container.appendChild(button)
