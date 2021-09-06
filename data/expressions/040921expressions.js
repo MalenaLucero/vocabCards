@@ -37,5 +37,24 @@ const expressions040921 = [
             }
         ],
         tags: ["歌", "given"]
+    }, {
+        word: "宿る",
+        reading: "やどる",
+        transitivity: {
+            type: "",
+            opposingWord: ""
+        },
+        englishMeaning: ["to dwell; to live; to remain"],
+        japaneseMeaning: ["旅先で宿をとる。また、一時的にそこに住む。「僧坊に―・る」"],
+        exampleSentences: [
+            {
+                sentence: "雨 晴れ 曇り / 春夏秋冬 365日 / どれも君が宿る",
+                source: {
+                    name: "given - Opening",
+                    link: ""
+                }
+            }
+        ],
+        tags: ["歌", "given"]
     }
 ]
