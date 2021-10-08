@@ -17,7 +17,7 @@ const expressions260621 = [
                     }
                 }
             ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "腐敗",
         reading: "ふはい",
@@ -36,7 +36,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "塞ぐ",
         reading: "ふさぐ",
@@ -55,7 +55,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "囁く",
         reading: "ささやく",
@@ -76,7 +76,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "彷徨う",
         reading: "さまよう",
@@ -97,7 +97,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "嗅ぐ",
         reading: "かぐ",
@@ -117,7 +117,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "BTS"]
     }, {
         word: "再発",
         reading: "さいはつ",
@@ -137,7 +137,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "然程",
         reading: "さほど",
@@ -156,7 +156,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "予め",
         reading: "あらかじめ",
@@ -175,7 +175,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "もどかしい",
         reading: "もどかしい",
@@ -194,7 +194,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "凄腕",
         reading: "すごうで",
@@ -213,7 +213,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "直感的",
         reading: "ちょっかんてき",
@@ -232,7 +232,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "過程",
         reading: "かてい",
@@ -251,7 +251,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "展開",
         reading: "てんかい",
@@ -270,7 +270,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "作業",
         reading: "さぎょう",
@@ -301,7 +301,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "全般的",
         reading: "ぜんぱんてき",
@@ -320,7 +320,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "別途",
         reading: "べっと",
@@ -339,7 +339,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "埒があかない",
         reading: "ラチが明かない",
@@ -358,7 +358,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "調整",
         reading: "ちょうせい",
@@ -377,7 +377,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "投稿",
         reading: "とうこう",
@@ -396,7 +396,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "妙",
         reading: "みょう",
@@ -415,7 +415,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "動揺",
         reading: "どうよう",
@@ -434,7 +434,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "臨む",
         reading: "のぞむ",
@@ -453,7 +453,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["インタビュー", "Suga"]
     }, {
         word: "感染",
         reading: "かんせん",
@@ -472,7 +472,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["ポッドキャスト"]
     }, {
         word: "追い込む",
         reading: "おいこむ",
@@ -491,7 +491,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌", "BTS"]
     }, {
         word: "途切れる",
         reading: "とぎれる",
@@ -510,7 +510,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌", "BTS"]
     }, {
         word: "淡々",
         reading: "たんたん",
@@ -529,7 +529,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌", "BTS"]
     }, {
         word: "込み上げる",
         reading: "こみあげる",
@@ -548,7 +548,7 @@ const expressions260621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["歌", "BTS"]
     }
 ]
     

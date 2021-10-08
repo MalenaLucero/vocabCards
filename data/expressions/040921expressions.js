@@ -1,3 +1,5 @@
+//sin terminar
+
 const expressions040921 = [
     {
         word: "携える",
@@ -17,7 +19,7 @@ const expressions040921 = [
                 }
             }
         ],
-        tags: ["歌", "given"]
+        tags: ["歌", "ギヴン"]
     }, {
         word: "春夏秋冬",
         reading: "しゅんかしゅうとう",
@@ -36,7 +38,7 @@ const expressions040921 = [
                 }
             }
         ],
-        tags: ["歌", "given"]
+        tags: ["歌", "ギヴン"]
     }, {
         word: "宿る",
         reading: "やどる",
@@ -55,6 +57,6 @@ const expressions040921 = [
                 }
             }
         ],
-        tags: ["歌", "given"]
+        tags: ["歌", "ギヴン"]
     }
 ]

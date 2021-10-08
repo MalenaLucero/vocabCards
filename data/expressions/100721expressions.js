@@ -17,7 +17,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "呑む",
         reading: "のむ",
@@ -36,7 +36,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "定職",
         reading: "ていしょく",
@@ -55,7 +55,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "寒暖差",
         reading: "かんだんさ",
@@ -74,7 +74,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "絶えず",
         reading: "たえず",
@@ -93,7 +93,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "芽",
         reading: "め",
@@ -112,7 +112,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "どろん",
         reading: "",
@@ -131,7 +131,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "秋山黄色"]
     }, {
         word: "出勤者",
         reading: "しゅっきんしゃ",
@@ -150,7 +150,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "削減",
         reading: "さくげん",
@@ -169,7 +169,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "実施",
         reading: "さくげん",
@@ -188,7 +188,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "在宅勤務",
         reading: "ざいたくきんむ",
@@ -207,7 +207,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "増加",
         reading: "ぞうか",
@@ -226,7 +226,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "規模",
         reading: "きぼ",
@@ -245,7 +245,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "拡大",
         reading: "かくだい",
@@ -264,7 +264,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "改善",
         reading: "かいぜん",
@@ -283,7 +283,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "克服",
         reading: "こくふく",
@@ -302,7 +302,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "事務系労働者",
         reading: "じむけいろうどうしゃ",
@@ -321,7 +321,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "敢えて",
         reading: "あえて",
@@ -378,7 +378,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "機微",
         reading: "きび",
@@ -397,7 +397,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "収納",
         reading: "しゅうのう",
@@ -435,7 +435,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "記事"]
     }, {
         word: "心構え",
         reading: "こころがまえ",

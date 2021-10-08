@@ -17,7 +17,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "舐める",
         reading: "なめる",
@@ -36,7 +36,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "取り繕う",
         reading: "とりつくろう",
@@ -55,7 +55,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "皺",
         reading: "しわ",
@@ -74,7 +74,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "投げ売り",
         reading: "なうげり",
@@ -93,7 +93,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "書き足す",
         reading: "かきたす",
@@ -112,7 +112,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "駄文",
         reading: "だぶん",
@@ -131,7 +131,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "脚本",
         reading: "きゃくほん",
@@ -150,7 +150,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "芝居",
         reading: "しばい",
@@ -169,7 +169,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "秒針",
         reading: "びょうしん",
@@ -188,7 +188,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "区切る",
         reading: "くぎる",
@@ -207,7 +207,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "愚か",
         reading: "おろか",
@@ -226,7 +226,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "足掻く",
         reading: "あがく",
@@ -245,7 +245,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "立ち尽くす",
         reading: "たちつくす",
@@ -264,7 +264,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "泡",
         reading: "あわ / あぶく",
@@ -283,7 +283,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "清らか",
         reading: "きよらか",
@@ -302,7 +302,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "跳ねる",
         reading: "はねる",
@@ -321,7 +321,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "軽やか",
         reading: "かろやか",
@@ -340,7 +340,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "パチン",
         reading: "",
@@ -359,7 +359,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "弾ける",
         reading: "はじける",
@@ -378,7 +378,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "呆気ない",
         reading: "あっけない",
@@ -397,7 +397,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "抉る",
         reading: "えぐる",
@@ -416,7 +416,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "歯痒い",
         reading: "はがゆい",
@@ -435,7 +435,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "何時しか",
         reading: "いつしか",
@@ -454,7 +454,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キングヌー"]
     }, {
         word: "要因",
         reading: "よういん",
@@ -473,7 +473,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "坪",
         reading: "つぼ",
@@ -492,7 +492,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "賃料",
         reading: "ちんりょう",
@@ -511,7 +511,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "竣工",
         reading: "しゅんこう",
@@ -530,7 +530,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "水準",
         reading: "すいじゅん",
@@ -549,7 +549,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "何れも",
         reading: "いずれも",
@@ -568,7 +568,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "幾分",
         reading: "いくぶん",
@@ -587,7 +587,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "赴任",
         reading: "ふにん",
@@ -606,7 +606,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "形成",
         reading: "けいせい",
@@ -625,7 +625,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "世帯",
         reading: "せたい",
@@ -644,7 +644,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "一助",
         reading: "いちじょ",
@@ -663,7 +663,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "断念",
         reading: "だんねん",
@@ -682,7 +682,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "取得",
         reading: "しゅとく",
@@ -701,7 +701,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "公私",
         reading: "こうし",
@@ -720,7 +720,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "的確",
         reading: "てきかく",
@@ -739,7 +739,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "投資家",
         reading: "とうしか",
@@ -758,7 +758,7 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }, {
         word: "好循環",
         reading: "こうじゅんかん",
@@ -777,6 +777,6 @@ const expressions240721 = [
                 }
             }
         ],
-        tags: ["記事"]
+        tags: ["記事", "仕事"]
     }
 ]

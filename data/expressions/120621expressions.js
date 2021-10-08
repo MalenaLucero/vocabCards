@@ -17,7 +17,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キタニ タツヤ"]
     }, {
         word: "足枷",
         reading: "あしかせ",
@@ -36,7 +36,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キタニ タツヤ"]
     }, {
         word: "破片",
         reading: "はへん",
@@ -55,7 +55,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キタニ タツヤ"]
     }, {
         word: "覗く",
         reading: "のぞく",
@@ -74,7 +74,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キタニ タツヤ"]
     }, {
         word: "淡い",
         reading: "あわい",
@@ -93,7 +93,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "キタニ タツヤ"]
     }, {
         word: "待遇",
         reading: "たいぐう",
@@ -112,7 +112,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "繁忙",
         reading: "はんぼう",
@@ -131,7 +131,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "店舗",
         reading: "てんぽ",
@@ -150,7 +150,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "部署",
         reading: "ぶしょ",
@@ -169,7 +169,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "浸透",
         reading: "しんとう",
@@ -226,7 +226,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: ["仕事"]
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "構造",
         reading: "こうぞう",

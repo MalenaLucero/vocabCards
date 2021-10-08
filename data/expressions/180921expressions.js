@@ -112,7 +112,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "捲る",
         reading: "まくる",
@@ -131,7 +131,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "合間",
         reading: "あいま",
@@ -150,7 +150,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "一致",
         reading: "いっち",
@@ -169,7 +169,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "身をもって",
         reading: "身をもって",
@@ -188,7 +188,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "労る",
         reading: "いたわる",
@@ -207,7 +207,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "尽くす",
         reading: "つくす",
@@ -226,7 +226,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "思春期",
         reading: "ししゅんき",
@@ -245,7 +245,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "庇護欲",
         reading: "ひごよく",
@@ -264,7 +264,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "意思疎通",
         reading: "いしそつう",
@@ -283,7 +283,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "単発",
         reading: "たんぱつ",
@@ -302,7 +302,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "辟易",
         reading: "へきえき",
@@ -321,7 +321,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "動機",
         reading: "どうき",
@@ -340,7 +340,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "似つかわしい",
         reading: "につかわしい",
@@ -359,7 +359,7 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }, {
         word: "渋い",
         reading: "しぶい",
@@ -378,6 +378,6 @@ const expressions180921 = [
                 }
             }
         ],
-        tags: ["アニメ", "given"]
+        tags: ["アニメ", "ギヴン"]
     }
 ]

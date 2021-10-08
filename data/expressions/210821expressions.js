@@ -17,7 +17,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "三日月",
         reading: "みかづき",
@@ -36,7 +36,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "哀れみ",
         reading: "あわれみ",
@@ -55,7 +55,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "安堵感",
         reading: "あんどかん",
@@ -74,7 +74,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "寂れる",
         reading: "さびれる",
@@ -93,7 +93,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "路地",
         reading: "ろじ",
@@ -112,7 +112,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "焦がす",
         reading: "こがす",
@@ -131,7 +131,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "口ずさむ",
         reading: "くちずさむ",
@@ -150,7 +150,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "草臥れる",
         reading: "くたびれる",
@@ -169,7 +169,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "霧",
         reading: "きり",
@@ -188,7 +188,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "夜汽車",
         reading: "よぎしゃ",
@@ -207,7 +207,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "灯す",
         reading: "ともす",
@@ -226,7 +226,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "纏う",
         reading: "まとう",
@@ -245,7 +245,7 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }, {
         word: "星屑",
         reading: "ほしくず",
@@ -264,6 +264,6 @@ const expressions210821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "大橋トリオ"]
     }
 ]

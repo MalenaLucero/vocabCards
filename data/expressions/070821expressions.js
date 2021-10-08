@@ -1,3 +1,5 @@
+//sin terminar
+
 const expressions070821 = [
     {
         word: "粗探し",
@@ -17,7 +19,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "取っ組み合い",
         reading: "とっくみあい",
@@ -36,7 +38,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "純情",
         reading: "じゅんじょう",
@@ -55,7 +57,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "論争",
         reading: "じゅんじょう",
@@ -74,7 +76,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "喧しい",
         reading: "やかましい",
@@ -93,7 +95,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "嫌よ嫌よも好きのうち",
         reading: "いやよいやよも好きのうち",
@@ -112,7 +114,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "相思相愛",
         reading: "そうしそうあい",
@@ -131,7 +133,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "なぞる",
         reading: "",
@@ -150,7 +152,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "好機到来",
         reading: "こうきとうらい",
@@ -169,7 +171,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "裏腹",
         reading: "うらはら",
@@ -188,7 +190,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "食い散らす",
         reading: "くいちらす",
@@ -207,7 +209,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "群れる",
         reading: "むれる",
@@ -226,7 +228,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "跡形も無く",
         reading: "あとかたもなく",
@@ -245,7 +247,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "どさくさに紛れて",
         reading: "どさくさにまぎれて",
@@ -264,7 +266,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "懐に入る",
         reading: "ふところにはいる",
@@ -283,7 +285,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "受け流す",
         reading: "ふところにはいる",
@@ -302,7 +304,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "頑な",
         reading: "かたくな",
@@ -321,7 +323,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "水槽",
         reading: "すいそう",
@@ -340,7 +342,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "濡れる",
         reading: "ぬれる",
@@ -359,7 +361,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "臆病",
         reading: "おくびょう",
@@ -378,7 +380,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "正義",
         reading: "せいぎ",
@@ -397,7 +399,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "欲望",
         reading: "よくぼう",
@@ -416,7 +418,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "褪せる",
         reading: "あせる",
@@ -435,7 +437,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "鮮明",
         reading: "せんめい",
@@ -454,7 +456,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "帯びる",
         reading: "おびる",
@@ -473,7 +475,7 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }, {
         word: "灼く",
         reading: "灼く",
@@ -492,6 +494,6 @@ const expressions070821 = [
                 }
             }
         ],
-        tags: ["歌"]
+        tags: ["歌", "フレデリック"]
     }
 ]
