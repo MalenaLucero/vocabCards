@@ -340,7 +340,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "記事"]
     }, {
         word: "ざっくばらん",
         reading: "",
@@ -359,7 +359,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "記事"]
     }, {
         word: "改革",
         reading: "かいかく",
@@ -416,7 +416,7 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "記事"]
     }, {
         word: "往復",
         reading: "おうふく",
@@ -454,6 +454,6 @@ const expressions100721 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "記事"]
     }
 ]

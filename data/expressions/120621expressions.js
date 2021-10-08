@@ -188,7 +188,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "発散",
         reading: "はっさん",
@@ -207,7 +207,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["仕事", "ポッドキャスト"]
     }, {
         word: "犠牲",
         reading: "ぎせい",
@@ -327,7 +327,7 @@ const expressions120621 = [
                 }
             }
         ],
-        tags: []
+        tags: ["プログラミング"]
     }, {
         word: "値",
         reading: "あたい",
